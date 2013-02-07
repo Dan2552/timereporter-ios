@@ -1,0 +1,27 @@
+
+PODS:
+- NUI (0.2.0)
+- ObjectiveSugar (0.6)
+- SBJson (3.1.1)
+- TPKeyboardAvoiding (0.0.1)
+- iActiveRecord (1.3.2x)
+
+DEPENDENCIES:
+- NUI
+- ObjectiveSugar
+- SBJson
+- TPKeyboardAvoiding
+- iActiveRecord (from `https://github.com/Dan2552/iActiveRecord.git')
+
+EXTERNAL SOURCES:
+  iActiveRecord:
+    :git: https://github.com/Dan2552/iActiveRecord.git
+
+SPEC CHECKSUMS:
+  NUI: edc9542a2ed820e4ee3bfa4c993323e287523c67
+  ObjectiveSugar: fa4b3573c0f1f93d566ea498255ebb117c0b520e
+  SBJson: d917ef596960a977b6c20235a90810bc306a48f0
+  TPKeyboardAvoiding: 7289409b17dc2193a3f324672283c542f17c1bb1
+  iActiveRecord: 2f3fc660e362e827cd03c66d3444e13ec8142350
+
+COCOAPODS: 0.16.0

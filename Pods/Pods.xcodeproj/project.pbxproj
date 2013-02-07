@@ -1,0 +1,1032 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0041045301BF4AECA00EFFDD /* NSSet+Accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F38545F5C7C429D946344C1 /* NSSet+Accessors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02364318BF4E4522864962DC /* NSMutableDictionary+valueToArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 356DAC9934D646CC8DF9560E /* NSMutableDictionary+valueToArray.m */; };
+		059BC044E80B4C12BECD3675 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEE91477E294BB38E503633 /* SBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068D15FABE6E44BEB2D56733 /* SBJsonStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A6070758D8498C83D7F4A3 /* SBJsonStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09457E50EA0C4AB3B6520C34 /* NSDate+isPresented.m in Sources */ = {isa = PBXBuildFile; fileRef = 629894229C4140C3B2373952 /* NSDate+isPresented.m */; };
+		0C99DCCD6C9045BA9FA88522 /* NUITextFieldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 160C70E1CE6241689C1DA0B5 /* NUITextFieldRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CB7F6EA229D40CABDFBF04B /* NUITextFieldRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B1BFB0F994129884585DC /* NUITextFieldRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		0E1563AE5A1E4BCF9AA3F4CA /* NSDate+isPresented.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDA92769CCC4BDBB99A7F6C /* NSDate+isPresented.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E6AA3A588BC4798A2EEB2F4 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CBDDCBBB254207B7C552E3 /* SBJsonStreamParser.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		0EB671C2C468400BB69C38A3 /* NSNumber+sqlRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2BAD3C441174B93A7AADA6A /* NSNumber+sqlRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC95AB94B62480CA2C0E1F2 /* UILabel+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D38187663BB945B3997A7142 /* UILabel+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F4663AD4E6949A09180093C /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAABABC38146FC9BA6A4C9 /* SBJsonStreamParserState.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		10E5568E0AFB4DD8A8CD785C /* SBJsonStreamParserAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 116C5476BFE8424BBB5C206C /* SBJsonStreamParserAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11D2B8E0044448EBBC89E3C7 /* NUILabelRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AF3C22464546FE8F5D5A59 /* NUILabelRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A26B7EA7FE486BA3AD9A68 /* PodsDummy_Pods.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A57838D7764D3C818E8C85 /* PodsDummy_Pods.m */; };
+		162E2A9A6FA148ABA8E64DD0 /* NUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 166A55F6BABD4C34B5B7EFE2 /* NUIAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1676E67CF3F84CCAB01E45DF /* NUISwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C54F4745E546CE83C48564 /* NUISwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19769729D6E848CEA13FE30A /* ARError.m in Sources */ = {isa = PBXBuildFile; fileRef = C61C6A29F1964DEE89173C35 /* ARError.m */; };
+		1A63205322154D17A92F4C98 /* UITableViewCell+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B44F158161F406588B2BAFE /* UITableViewCell+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1CE8840C5AD046FC8665F09B /* UINavigationItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECC8A1A32534A0DA777BB0C /* UINavigationItem+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E0236DE224E4F548CC30D8B /* UISegmentedControl+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C52ED50DDAAA4BEAAC418DBE /* UISegmentedControl+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		213614BEC325411E8281D4CB /* UIBarButtonItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 983309D8F4F7482CBDF46FAD /* UIBarButtonItem+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		2478389D73924D5EAC9367DA /* ARRelationHasMany.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A9F247B5B8416E9C889FA7 /* ARRelationHasMany.m */; };
+		24AB27B23F9C43199CFBEAA7 /* ARValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B24AB20FBCE450E917D27AC /* ARValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25AAC4F4F2984C43A701CFA7 /* NSDictionary+Rubyfy.h in Headers */ = {isa = PBXBuildFile; fileRef = B3FBB0EBC6F547E58A047708 /* NSDictionary+Rubyfy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28CCEC678B684579A805731F /* NUIConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0A88DEC755429AA67F60E2 /* NUIConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B100F56D7134CFB963F6773 /* ARColumn_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CB817A6D6D884FE9AC322113 /* ARColumn_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2126422F0142D3985D2AA6 /* ARSchemaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1C0FD5624D47AFBB98D912 /* ARSchemaManager.m */; };
+		2B2342BEE2D14DF8845D0BF8 /* NSArray+Accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6E3932D19D4B78B4A16CF7 /* NSArray+Accessors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FFCA12B35364AE993BF3F92 /* ARValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = C5257B6F04B6487C95D26C1B /* ARValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3118C9EDEDC74716855F78B0 /* NUISettings.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FF08E0039845A78F164E2B /* NUISettings.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		31243375EA1549198E380BFD /* ARValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EADDC35CA5A4959BEB20A81 /* ARValidation.m */; };
+		331EA3E7F7CA4CF6878AD80E /* ARDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F7C8D1AC294F42BD25D8FC /* ARDatabaseManager.m */; };
+		37A3F8AF7EC1425E9B75C93F /* NUIButtonRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6664E127A4B746D9850830A3 /* NUIButtonRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3863D7A08B284A408E3084CE /* NSData+isPresented.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4089E17E2A4D3FBA1B2F35 /* NSData+isPresented.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39DD72E79FD949F885BB545A /* NUIViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D114CA757E54F3984A513A1 /* NUIViewRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3BC145BD2A91491187675AF9 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 518E0A2CED2B4311A827ECC6 /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C658274745E4E20BB3C9BCB /* ARError.h in Headers */ = {isa = PBXBuildFile; fileRef = 813B4E33746D4896AC49BCB7 /* ARError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C6B5C900DB4483EB6AC038F /* ARDynamicAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6732B5577E824E31AEDDD688 /* ARDynamicAccessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FBE8EEEC49C491D86B9B9C8 /* UITextField+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B760222DB10C47B19AEAC3A1 /* UITextField+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40247A7EDA974DD48DBCF453 /* sqlite3_unicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1A86F55A454B22AE49EE9B /* sqlite3_unicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4153D528C4E44D2FA093A498 /* AREnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 5598E3393C63451A94DD1580 /* AREnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42CB6C43BA544301AD750DA6 /* NSSet+toSql.h in Headers */ = {isa = PBXBuildFile; fileRef = F940E96E1EA8455E993A7352 /* NSSet+toSql.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43536BBE7D244F50AC849018 /* NSDecimalNumber+isPresented.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CCEB1187D5407CAB554822 /* NSDecimalNumber+isPresented.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45525912AC23484E90945673 /* NSString+stringWithEscapedQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = 25548BEFA61941CCB08F93BC /* NSString+stringWithEscapedQuote.m */; };
+		458984812188482FB8DE44A1 /* NSArray+toSql.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F578D276AA4E7FA533D963 /* NSArray+toSql.m */; };
+		471F5B7C559644E598E3C8D7 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC49EA20C334386B956CBA1 /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AE2B3FD9A2248D8A865384F /* UISegmentedControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD47200AA524EFFB71CCD44 /* UISegmentedControl+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4B0971C72C14442BB5E4E3C4 /* ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F84608611E4EA496003A21 /* ActiveRecord.m */; };
+		4E1548DDBB744C86876EBB82 /* NUIBarButtonItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8F534D76794320B92850A4 /* NUIBarButtonItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E2D17A2A7BF47FABFEF82C8 /* ARRelationBelongsTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEB87F509A422D9E8425F8 /* ARRelationBelongsTo.m */; };
+		4F88BDE70AE7419290536373 /* SBJsonStreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F2A650B325424C90CF954A /* SBJsonStreamWriterState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5009784FB4FA42558AD612C9 /* NSData+sqlRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0188D814C2B144E39812C106 /* NSData+sqlRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5113F5B3C127477DAEA252C4 /* ARException.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C6A253047A4C07A276EA15 /* ARException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5173003894594A05B1AE67C9 /* NSDecimalNumber+isPresented.m in Sources */ = {isa = PBXBuildFile; fileRef = D06AED2EE1A94FFABB68795A /* NSDecimalNumber+isPresented.m */; };
+		527C0C487C88410E8871F2F9 /* NSData+isPresented.m in Sources */ = {isa = PBXBuildFile; fileRef = 867770F2BFED4717817FE588 /* NSData+isPresented.m */; };
+		52E0080056FD4890A0221B57 /* NUIBarButtonItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE69ADDAF57C4D3C90199AE2 /* NUIBarButtonItemRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		532B8AA630FF4B32A8C991EB /* NSDecimalNumber+sqlRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = B00C6A0F40D04670B8BD2BAC /* NSDecimalNumber+sqlRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56D2399D9D794FED9BF8D6EA /* NSSet+toSql.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0014B5DAD44BAD8EBD9352 /* NSSet+toSql.m */; };
+		57E1DE53568A4A9089A96624 /* NUINavigationItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B0163C087EB549A987320F08 /* NUINavigationItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5940D638DD634E1FA4742FEB /* ARColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = D20BCA5075A9465C8A867B13 /* ARColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5958A8973B7046969830DEB9 /* NSArray+toSql.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA72096B8034440AE851AE3 /* NSArray+toSql.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D9CC035570047DAB98029E0 /* NUIButtonRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B98FAEE1E8546A39229A23E /* NUIButtonRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F946C4698B1492E8947ABDE /* NSString+quotedString.m in Sources */ = {isa = PBXBuildFile; fileRef = F58F84D2BBD34AFAAED1B37B /* NSString+quotedString.m */; };
+		60215D1778FB4CBE9EDABA02 /* NUITableViewCellRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989F33C5AB0429E8666E6A7 /* NUITableViewCellRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		627DCD62057D42A09B4FCB23 /* NSDate+sqlRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 48320DF6AFCD4CDDB5E77211 /* NSDate+sqlRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A4932B905B489695584D77 /* UIView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4B6EA555B54C5BB9E8F157 /* UIView+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6667D6CEBE02498B857B511B /* NUIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = AED22197AA4B4867B7F2289E /* NUIRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66DD7AD923334F5ABA7FB23E /* NSString+stringWithEscapedQuote.h in Headers */ = {isa = PBXBuildFile; fileRef = 3875C052E5784EEFAD562252 /* NSString+stringWithEscapedQuote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		680D1ACC2BE542C5A314C83E /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E292D540F064105A76B0498 /* SBJsonStreamWriter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6833AA2DAA5A4B4BBAAA3377 /* NUISegmentedControlRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA0D256E4E74C8E91878BED /* NUISegmentedControlRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6C9B030140FA4E67B52A6D91 /* SBJsonTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = B96793B3581C4AB2AD29B18E /* SBJsonTokeniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAA94B65A9E447B8FEF9924 /* ARRelationHasManyThrough.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E387F665C34799A0F8AE03 /* ARRelationHasManyThrough.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EFC1C9C6D5C485695FEFB9C /* NUITabBarItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F939FA004714B7EB96B0172 /* NUITabBarItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F102389A462406ABA086190 /* NUIGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = AC39FC42B28743C78805B28A /* NUIGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717C8DFA7AE84AB4BDC8BBDE /* NUINavigationItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F092A704C334442B39AA480 /* NUINavigationItemRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		719758A5D13447CEB1337464 /* ARColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E757101EA8D4907B0243FF5 /* ARColumn.m */; };
+		723941FCC4EB4EE88A08FD59 /* UIButton+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = CB54C4617F4F4818942CF1C3 /* UIButton+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		725CC3EB829A4F9C90C30563 /* NSString+sqlRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3497635D51E14822BF697333 /* NSString+sqlRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7351EB812D5540CE8C4862F9 /* NSDictionary+Rubyfy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AFC9D3368A4CC8B873CA87 /* NSDictionary+Rubyfy.m */; };
+		739EE3FE63F44FA2A882A53A /* UITabBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 72054C34C2784E0B950AE081 /* UITabBar+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		77D57730B6C34213A7889A31 /* NSString+lowercaseFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDA4FFBD5244EC4B4AD33D1 /* NSString+lowercaseFirst.m */; };
+		7BB2978B254B4053BCE7EAFD /* NSString+uppercaseFirst.h in Headers */ = {isa = PBXBuildFile; fileRef = C20FA1E2B5DE4E2DAB08D013 /* NSString+uppercaseFirst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C63A44FB95F4062B6E0E05B /* NSDate+sqlRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = A24F6B4864AD46988C579191 /* NSDate+sqlRepresentation.m */; };
+		7D64F7CF3C794F229EA9BA5F /* ARRepresentationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A10508612D349F79F18FE08 /* ARRepresentationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DB8E54BD74B467B9F3FF523 /* NSMutableArray+Rubyfy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D973D1E69234E20803B1DD6 /* NSMutableArray+Rubyfy.m */; };
+		7F1ABEAADBD54195A80F1739 /* UITabBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1747C0A147B7414FBFA44892 /* UITabBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808A3665D1CF435D9D0513FB /* ARRelationHasMany.h in Headers */ = {isa = PBXBuildFile; fileRef = 79094973432F4E6F87BF41E2 /* ARRelationHasMany.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82745C40935D46CAB3C0B001 /* ARValidationsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 15202DE9F6D2426F9A617C7B /* ARValidationsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BD68DA841943BFBC714AA6 /* ARValidatorPresence.m in Sources */ = {isa = PBXBuildFile; fileRef = 57726B41E0D340AF9FEBED6D /* ARValidatorPresence.m */; };
+		83CA187FC735451194B48749 /* NUITabBarItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 34289E3439C8481D94F6EFEF /* NUITabBarItemRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		86A89963180543E28ED8BAD8 /* ARColumnType.h in Headers */ = {isa = PBXBuildFile; fileRef = 969F566E1C654F74BC2DB48A /* ARColumnType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87478C9B573A4BA390E56357 /* NUIConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = A78646E0C7E441C7B55D4A39 /* NUIConverter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		89A6152581A34EABB898707B /* NSString+sqlRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F920C9EF54DA698FA1B9B /* NSString+sqlRepresentation.m */; };
+		8CE8501B0E6946B68E4713B9 /* ARBaseRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C81183E9E447208151C0AB /* ARBaseRelationship.m */; };
+		9134E6304002410FBDD44191 /* NUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB730DB5F401693A693C5 /* NUIAppearance.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		92694AF8CBA246F18E24814E /* NSNumber+sqlRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF147DFA869C4B78BDF5380A /* NSNumber+sqlRepresentation.m */; };
+		92B419151C034BE3803DF4AA /* NUIViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F9D3D0003247ACBB1E24FA /* NUIViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94825F6B9D6347B6B960A3A1 /* ARLazyFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 755FABFF70B5415C95703801 /* ARLazyFetcher.m */; };
+		95921C7D6DBE4B76B689F0AD /* NSObject+SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F6EA0566E041A3B6729232 /* NSObject+SBJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C1D2A769C14451383B0DB95 /* ARValidatorUniqueness.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEF70FFEE9246E99EC6E4EF /* ARValidatorUniqueness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C2AB3F674854168AA99CB1F /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DF088FC6AC46919BA94EA2 /* NUIStyleParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C34549E82874D3FA37EB7B4 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25B5EB61604C64A149D006 /* SBJsonStreamWriterAccumulator.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		9D6065C25A5044F8BFD22977 /* NUIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D611B0AF7D7E4221BCF62838 /* NUIUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A284F8B028324827AADD3ADD /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECCC728FF844937BE43C85B /* NSData+Base64.m */; };
+		A3F55AE16E9E40FE8F5A16CE /* NUILabelRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3259FDF3047BD93FE51A9 /* NUILabelRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4C69F0E1676490CA1718541 /* ARRelationHasManyThrough.m in Sources */ = {isa = PBXBuildFile; fileRef = 909D8F78BBA14C64BBECBB67 /* ARRelationHasManyThrough.m */; };
+		A6FFC60DEED64F3D8761DBFA /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 683B88A6FEDA4FB8925B0AF6 /* SBJsonStreamParserAdapter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A707DE8816554241A15535E7 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7CE4CAC0F948FAB5EEFE1B /* TPKeyboardAvoidingScrollView.m */; };
+		A76CC66E38BC414A8C94A3CA /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 994C5FE211564A80B02C1BDB /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		AA6D3F39CF134971A3750834 /* NSMutableArray+Rubyfy.h in Headers */ = {isa = PBXBuildFile; fileRef = 248924DBE4FB40A089F4BCF9 /* NSMutableArray+Rubyfy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAAF019C1E764412BA723F0C /* ARValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5620F5B45A84CBB99FB8E62 /* ARValidator.m */; };
+		AB5B55B4FA394042811C3837 /* NSDecimalNumber+sqlRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = D59F746212A7451C80E81842 /* NSDecimalNumber+sqlRepresentation.m */; };
+		ABB00D77056946A2A72A3C0E /* ARValidatorUniqueness.m in Sources */ = {isa = PBXBuildFile; fileRef = 07045DB82B2E46418F3109E4 /* ARValidatorUniqueness.m */; };
+		AE0AA638450B4D35BB1CA47F /* class_getSubclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEE13941213441193FA7D98 /* class_getSubclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE66BDE09FB64E31A4A357C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF40E89025974AC5A1B9D228 /* Foundation.framework */; };
+		AEB43C2720B24A539706BA6F /* NSNumber+Rubyfy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A28416E646D4CE08F91E0AA /* NSNumber+Rubyfy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF9808C654AF471489CDF050 /* ARSchemaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A050ABD76EFC43669BB90135 /* ARSchemaManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25C26568E74443AB87EEE15 /* ARValidatorPresence.h in Headers */ = {isa = PBXBuildFile; fileRef = 0305382365814D159F707C58 /* ARValidatorPresence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B37E3E4425FF41B497F3C6DF /* ARLazyFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EF70D5881B734B66A9D1D77F /* ARLazyFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D8E654746D4AFB9991CE26 /* NUITabBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A6A7A434664FB199797966 /* NUITabBarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4E639420A0844E3BDE72CE6 /* NSString+lowercaseFirst.h in Headers */ = {isa = PBXBuildFile; fileRef = AA18127A5891440FA83F37E0 /* NSString+lowercaseFirst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B521574378064AF38BB1F97E /* SBJsonStreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EDCAB3EE784B8C886D3AF6 /* SBJsonStreamParserState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B603529CCD9B479AB876EB5F /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B412FD6B6E47D792F14667 /* SBJsonStreamParserAccumulator.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B7DA74836E9145788C6DB355 /* NUINavigationBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE41B887DD649939BECC185 /* NUINavigationBarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B68E0E549E40C89BA75BA4 /* SBJsonUTF8Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B316C03E4AF34B6F9B3A6E41 /* SBJsonUTF8Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91668E8B6C744749F324F7C /* NSData+sqlRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 879CDA68BFD94B9799B2CC17 /* NSData+sqlRepresentation.m */; };
+		BA53D7F179D44A39B63FA617 /* UIBarButtonItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A49D29455246F0B8CCB831 /* UIBarButtonItem+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA8EF8CECFC942F48A5570F9 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A94F3AEB1DE49B9A8C19A9B /* TPKeyboardAvoidingTableView.m */; };
+		BD812832B9A446FE9A846AB7 /* SBJsonStreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 54424FAA85BD4335B5F92644 /* SBJsonStreamWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD90136B4EED44C0A68CC2FF /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 61740516960B48D48660FF16 /* NSObject+SBJson.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		BD984EDCFF8E4418997AA140 /* SBJsonStreamParserAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3FEC3C70764BD2A2ADF7FC /* SBJsonStreamParserAccumulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB54C14E9D048A19BC7BE63 /* NUISegmentedControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = A206689CE4914395B1511328 /* NUISegmentedControlRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEF4028DB487484EA1C304F5 /* NUITabBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E113B5FBED44A238AC41754 /* NUITabBarRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		BFF952499B9B45C7A12C4F55 /* UINavigationItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AD5D5E6BDF408FBBF6B42E /* UINavigationItem+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C05E656F010947FA8B84D6E1 /* ARRelationshipsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0165A11E62BA42CDB4E2B793 /* ARRelationshipsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C13B9B2F3DB849E2A0C34DDD /* ARErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A015C0ECE1D400BB7BAF17A /* ARErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C20B88A2A41E4AF9819D6F19 /* ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7179B12B741446FABC1169E1 /* ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D5BBA2A7234B088A8DCA76 /* SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EC88C915F04E74B6E9D038 /* SBJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5072FB1F1CD407798641AA8 /* NSNumber+Rubyfy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC7919006EE45408D51A6D6 /* NSNumber+Rubyfy.m */; };
+		C802C9B1A8ED4F9D91ED8AC6 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = FA31A0EE31D44CA28B0580E7 /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8686E16AAD14FFDAD90CA41 /* UITabBarItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C6184ACB3244ACB50452FD /* UITabBarItem+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C958FFE229934F4981E07CD8 /* UINavigationBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6706EDABDC05488584D4F88C /* UINavigationBar+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CA09E711BFC74F4494A426AF /* NSArray+objectsAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 97897436FA5C45B396BDE23C /* NSArray+objectsAccessors.m */; };
+		CB6D04F28C6C4D08B117F9C3 /* NUISwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 303EB210C8044283870291F2 /* NUISwizzler.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CC551B03E44643609A8F7AE0 /* NUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4AAA6C53CD4F6A86121FCB /* NUIGraphics.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		CD7C4577BD6A469BB97A6A80 /* NSSet+Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DC7CECFA82427294D48422 /* NSSet+Accessors.m */; };
+		D27F60C71C2F41709AB18E97 /* NSNumber+isPresented.h in Headers */ = {isa = PBXBuildFile; fileRef = 71393919448848E59EEC4E6F /* NSNumber+isPresented.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D376359D7A1941E8B806DAE1 /* sqlite3_unicode.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F105AA3D0994156884943C6 /* sqlite3_unicode.c */; };
+		D3AB3C7CF1D64A52AAA5BAA4 /* UITabBarItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E9DD59FFFE45A6B38005DB /* UITabBarItem+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D798B1A5366942D1B26C02DD /* NSString+uppercaseFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = CA29ABD4D57148DF96929E48 /* NSString+uppercaseFirst.m */; };
+		D99AE734382B475BB637E11E /* ARLazyFetcher_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0952E3DCE1DA43A899CAAC6C /* ARLazyFetcher_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9AA6A915BBB4450A472557E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E49F1EE4BF4353872CD5A6 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DA82EF7B78B1413A9FDFFE38 /* NSMutableDictionary+valueToArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A0D34820AF400D80ECE699 /* NSMutableDictionary+valueToArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE257F27F2ED47AA99AE48C9 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E5097AC98847529383DE95 /* SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DF021467ADD94A9E855EECF8 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE660B71FC3438AB7EEB51F /* SBJsonUTF8Stream.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DF30952C3CAC4A7DB44E6ABB /* NSNumber+isPresented.m in Sources */ = {isa = PBXBuildFile; fileRef = 29263E6E23ED44AC8985E15A /* NSNumber+isPresented.m */; };
+		DF52309659C843D3B6565212 /* NSArray+objectsAccessors.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA4EF4D125A4EC19B83C1F6 /* NSArray+objectsAccessors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3748BADA7404AC0B3199D54 /* NSString+isPresented.h in Headers */ = {isa = PBXBuildFile; fileRef = E97D3067946D46AD8B50E31D /* NSString+isPresented.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51C42E82EA44D7CB262A28D /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1198937B784EDB943C5A1F /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E64C9B7DC13C4EA294AA4A2C /* NUITableViewCellRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 15DC5C7854D1403BB3966C30 /* NUITableViewCellRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E65991315A804842B820685A /* NSString+quotedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 63ED5BB8EE764C2BBB893AA0 /* NSString+quotedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F388EAC92E45C087B1A5FA /* UIButton+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 506986E005194AD68FB84762 /* UIButton+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA3D0127CDF24CCC8A33196D /* SBJsonStreamWriterAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = A28FC3AD650A4A0B9AEACEDC /* SBJsonStreamWriterAccumulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB5ADC036CBA4533B0998EAB /* ARSQLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4AA99019EC4824A60150F6 /* ARSQLBuilder.m */; };
+		EBD23EF2F7254FA0BB92C7A3 /* UINavigationBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B17C5549F02040F19CB61AA2 /* UINavigationBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBF27248E0DD452EBB03EDC0 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3E55C9C3024CDFA7A512EC /* SBJsonStreamWriterState.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EDE70B5729D64D4CB008771C /* UILabel+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7AFEEA8454326BEFA1DF8 /* UILabel+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EE385115356B46538036D574 /* ARIndicesMacroHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD5F0776A1B456E9664CB4E /* ARIndicesMacroHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE5F19898CD4660ACEF336D /* UITextField+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53C22DC65B4D729BE09EFC /* UITextField+NUI.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EF5F5009E03F4AD28C359C32 /* ActiveRecord_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D802032FC7C42099A02DD25 /* ActiveRecord_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFDFFB3C1BAE4DDB8640FDE9 /* ARException.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9755EBFE73476A973FA248 /* ARException.m */; };
+		EFEE180BB0E14E6F85D280E9 /* ActiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 71481C1A3B1B486692B7DBEC /* ActiveRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFF5473A2BEC49FEA4A00FC9 /* ARRelationBelongsTo.h in Headers */ = {isa = PBXBuildFile; fileRef = B728D90BDEDD49D398EA01CE /* ARRelationBelongsTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16F85787C3E46098CB79162 /* ARValidatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5A47524E0E40BFA9925DD0 /* ARValidatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A275E393FF41B093E1BD6E /* NUINavigationBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED8B65AFC842E1A113008B /* NUINavigationBarRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F356192FE1994D1E9662C935 /* NSArray+Accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7E8755C094A458DFD176F /* NSArray+Accessors.m */; };
+		F4F68E77793E4ABFA01C1837 /* ARSQLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = EF587E3491D242C2AF7395E8 /* ARSQLBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5696CFF0730448FB506FB76 /* ARDynamicAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = E14AE90EE82643DCAD48C988 /* ARDynamicAccessor.m */; };
+		F80AE3A4DA1E46C0B50F36EC /* UIView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E57476EB753408B87FB8108 /* UIView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9C6048E7084473797A15FB2 /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDE6AD68A3D4ACB8214BF82 /* NUISettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA22C9E38B6D41A694F135D1 /* NUIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7BEA1F137042D99BAF0E3B /* NUIUtilities.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FB62660C184E4471AB9DC139 /* ARDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 29075AE285EF4837A51CC630 /* ARDatabaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD77161E500C419BA25DFF48 /* UITableViewCell+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF967C80C3340478584C307 /* UITableViewCell+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0F00B3ED994E7A9956B539 /* NSString+isPresented.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A4340F90544A1C9F49D31E /* NSString+isPresented.m */; };
+		FE2F0B4B304A42CC9BD637A6 /* ARBaseRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5A951DCB2747989AF29DC1 /* ARBaseRelationship.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE90E8F1B2804BE492A1B8F9 /* NUIRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = CABF96F31B0B41FE98ECC11B /* NUIRenderer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FEA172457D774DC280EBAE8A /* NUIStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E898E31FAD384EDB8B9C9880 /* NUIStyleParser.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0165A11E62BA42CDB4E2B793 /* ARRelationshipsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARRelationshipsHelper.h; path = iActiveRecord/iActiveRecord/ARRelationshipsHelper.h; sourceTree = SOURCE_ROOT; };
+		0188D814C2B144E39812C106 /* NSData+sqlRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+sqlRepresentation.h"; path = "iActiveRecord/iActiveRecord/NSData+sqlRepresentation.h"; sourceTree = SOURCE_ROOT; };
+		0305382365814D159F707C58 /* ARValidatorPresence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARValidatorPresence.h; path = iActiveRecord/iActiveRecord/ARValidatorPresence.h; sourceTree = SOURCE_ROOT; };
+		03B412FD6B6E47D792F14667 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = SBJson/Classes/SBJsonStreamParserAccumulator.m; sourceTree = SOURCE_ROOT; };
+		03F578D276AA4E7FA533D963 /* NSArray+toSql.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+toSql.m"; path = "iActiveRecord/iActiveRecord/NSArray+toSql.m"; sourceTree = SOURCE_ROOT; };
+		046F920C9EF54DA698FA1B9B /* NSString+sqlRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+sqlRepresentation.m"; path = "iActiveRecord/iActiveRecord/NSString+sqlRepresentation.m"; sourceTree = SOURCE_ROOT; };
+		04EC88C915F04E74B6E9D038 /* SBJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson.h; path = SBJson/Classes/SBJson.h; sourceTree = SOURCE_ROOT; };
+		05A6070758D8498C83D7F4A3 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = SBJson/Classes/SBJsonStreamParser.h; sourceTree = SOURCE_ROOT; };
+		05E387F665C34799A0F8AE03 /* ARRelationHasManyThrough.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARRelationHasManyThrough.h; path = iActiveRecord/iActiveRecord/ARRelationHasManyThrough.h; sourceTree = SOURCE_ROOT; };
+		05E9DD59FFFE45A6B38005DB /* UITabBarItem+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+NUI.h"; path = "NUI/NUI/UI/UITabBarItem+NUI.h"; sourceTree = SOURCE_ROOT; };
+		07045DB82B2E46418F3109E4 /* ARValidatorUniqueness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARValidatorUniqueness.m; path = iActiveRecord/iActiveRecord/ARValidatorUniqueness.m; sourceTree = SOURCE_ROOT; };
+		0952E3DCE1DA43A899CAAC6C /* ARLazyFetcher_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARLazyFetcher_Private.h; path = iActiveRecord/iActiveRecord/ARLazyFetcher_Private.h; sourceTree = SOURCE_ROOT; };
+		0E292D540F064105A76B0498 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = SBJson/Classes/SBJsonStreamWriter.m; sourceTree = SOURCE_ROOT; };
+		116C5476BFE8424BBB5C206C /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = SBJson/Classes/SBJsonStreamParserAdapter.h; sourceTree = SOURCE_ROOT; };
+		11C6A253047A4C07A276EA15 /* ARException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARException.h; path = iActiveRecord/iActiveRecord/ARException.h; sourceTree = SOURCE_ROOT; };
+		15202DE9F6D2426F9A617C7B /* ARValidationsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARValidationsHelper.h; path = iActiveRecord/iActiveRecord/ARValidationsHelper.h; sourceTree = SOURCE_ROOT; };
+		15DC5C7854D1403BB3966C30 /* NUITableViewCellRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITableViewCellRenderer.h; path = NUI/NUI/Core/Renderers/NUITableViewCellRenderer.h; sourceTree = SOURCE_ROOT; };
+		160C70E1CE6241689C1DA0B5 /* NUITextFieldRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITextFieldRenderer.h; path = NUI/NUI/Core/Renderers/NUITextFieldRenderer.h; sourceTree = SOURCE_ROOT; };
+		166A55F6BABD4C34B5B7EFE2 /* NUIAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIAppearance.h; path = NUI/NUI/Core/NUIAppearance.h; sourceTree = SOURCE_ROOT; };
+		1747C0A147B7414FBFA44892 /* UITabBar+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+NUI.h"; path = "NUI/NUI/UI/UITabBar+NUI.h"; sourceTree = SOURCE_ROOT; };
+		1A0014B5DAD44BAD8EBD9352 /* NSSet+toSql.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+toSql.m"; path = "iActiveRecord/iActiveRecord/NSSet+toSql.m"; sourceTree = SOURCE_ROOT; };
+		1B6E3932D19D4B78B4A16CF7 /* NSArray+Accessors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Accessors.h"; path = "ObjectiveSugar/src/NSArray+Accessors.h"; sourceTree = SOURCE_ROOT; };
+		1BD0C88CEE9845E88941C9B8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		1D53C22DC65B4D729BE09EFC /* UITextField+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+NUI.m"; path = "NUI/NUI/UI/UITextField+NUI.m"; sourceTree = SOURCE_ROOT; };
+		1ECC8A1A32534A0DA777BB0C /* UINavigationItem+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+NUI.h"; path = "NUI/NUI/UI/UINavigationItem+NUI.h"; sourceTree = SOURCE_ROOT; };
+		1ECCC728FF844937BE43C85B /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "iActiveRecord/iActiveRecord/NSData+Base64.m"; sourceTree = SOURCE_ROOT; };
+		21F9D3D0003247ACBB1E24FA /* NUIViewRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIViewRenderer.h; path = NUI/NUI/Core/Renderers/NUIViewRenderer.h; sourceTree = SOURCE_ROOT; };
+		248924DBE4FB40A089F4BCF9 /* NSMutableArray+Rubyfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Rubyfy.h"; path = "ObjectiveSugar/src/NSMutableArray+Rubyfy.h"; sourceTree = SOURCE_ROOT; };
+		25548BEFA61941CCB08F93BC /* NSString+stringWithEscapedQuote.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+stringWithEscapedQuote.m"; path = "iActiveRecord/iActiveRecord/NSString+stringWithEscapedQuote.m"; sourceTree = SOURCE_ROOT; };
+		29075AE285EF4837A51CC630 /* ARDatabaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARDatabaseManager.h; path = iActiveRecord/iActiveRecord/ARDatabaseManager.h; sourceTree = SOURCE_ROOT; };
+		29263E6E23ED44AC8985E15A /* NSNumber+isPresented.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+isPresented.m"; path = "iActiveRecord/iActiveRecord/NSNumber+isPresented.m"; sourceTree = SOURCE_ROOT; };
+		29CBDDCBBB254207B7C552E3 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = SBJson/Classes/SBJsonStreamParser.m; sourceTree = SOURCE_ROOT; };
+		2A28416E646D4CE08F91E0AA /* NSNumber+Rubyfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Rubyfy.h"; path = "ObjectiveSugar/src/NSNumber+Rubyfy.h"; sourceTree = SOURCE_ROOT; };
+		2A5A951DCB2747989AF29DC1 /* ARBaseRelationship.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARBaseRelationship.h; path = iActiveRecord/iActiveRecord/ARBaseRelationship.h; sourceTree = SOURCE_ROOT; };
+		2A94F3AEB1DE49B9A8C19A9B /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = SOURCE_ROOT; };
+		2D802032FC7C42099A02DD25 /* ActiveRecord_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActiveRecord_Private.h; path = iActiveRecord/iActiveRecord/ActiveRecord_Private.h; sourceTree = SOURCE_ROOT; };
+		2E4AAA6C53CD4F6A86121FCB /* NUIGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIGraphics.m; path = NUI/NUI/Core/NUIGraphics.m; sourceTree = SOURCE_ROOT; };
+		2F38545F5C7C429D946344C1 /* NSSet+Accessors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+Accessors.h"; path = "ObjectiveSugar/src/NSSet+Accessors.h"; sourceTree = SOURCE_ROOT; };
+		2FDA92769CCC4BDBB99A7F6C /* NSDate+isPresented.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+isPresented.h"; path = "iActiveRecord/iActiveRecord/NSDate+isPresented.h"; sourceTree = SOURCE_ROOT; };
+		303EB210C8044283870291F2 /* NUISwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISwizzler.m; path = NUI/NUI/Core/NUISwizzler.m; sourceTree = SOURCE_ROOT; };
+		30FD71A7FA414AEBB50C5B74 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		34289E3439C8481D94F6EFEF /* NUITabBarItemRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITabBarItemRenderer.m; path = NUI/NUI/Core/Renderers/NUITabBarItemRenderer.m; sourceTree = SOURCE_ROOT; };
+		3497635D51E14822BF697333 /* NSString+sqlRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+sqlRepresentation.h"; path = "iActiveRecord/iActiveRecord/NSString+sqlRepresentation.h"; sourceTree = SOURCE_ROOT; };
+		356DAC9934D646CC8DF9560E /* NSMutableDictionary+valueToArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+valueToArray.m"; path = "iActiveRecord/iActiveRecord/NSMutableDictionary+valueToArray.m"; sourceTree = SOURCE_ROOT; };
+		3875C052E5784EEFAD562252 /* NSString+stringWithEscapedQuote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+stringWithEscapedQuote.h"; path = "iActiveRecord/iActiveRecord/NSString+stringWithEscapedQuote.h"; sourceTree = SOURCE_ROOT; };
+		3989F33C5AB0429E8666E6A7 /* NUITableViewCellRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITableViewCellRenderer.m; path = NUI/NUI/Core/Renderers/NUITableViewCellRenderer.m; sourceTree = SOURCE_ROOT; };
+		3B0A88DEC755429AA67F60E2 /* NUIConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIConverter.h; path = NUI/NUI/Core/NUIConverter.h; sourceTree = SOURCE_ROOT; };
+		3CEE13941213441193FA7D98 /* class_getSubclasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = class_getSubclasses.h; path = iActiveRecord/iActiveRecord/class_getSubclasses.h; sourceTree = SOURCE_ROOT; };
+		3DD5F0776A1B456E9664CB4E /* ARIndicesMacroHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARIndicesMacroHelper.h; path = iActiveRecord/iActiveRecord/ARIndicesMacroHelper.h; sourceTree = SOURCE_ROOT; };
+		3F105AA3D0994156884943C6 /* sqlite3_unicode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sqlite3_unicode.c; path = iActiveRecord/iActiveRecord/deps/sqlite3_unicode.c; sourceTree = SOURCE_ROOT; };
+		40DDB730DB5F401693A693C5 /* NUIAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIAppearance.m; path = NUI/NUI/Core/NUIAppearance.m; sourceTree = SOURCE_ROOT; };
+		43E49F1EE4BF4353872CD5A6 /* SBJsonParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = SBJson/Classes/SBJsonParser.m; sourceTree = SOURCE_ROOT; };
+		48320DF6AFCD4CDDB5E77211 /* NSDate+sqlRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+sqlRepresentation.h"; path = "iActiveRecord/iActiveRecord/NSDate+sqlRepresentation.h"; sourceTree = SOURCE_ROOT; };
+		4CCEB87F509A422D9E8425F8 /* ARRelationBelongsTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARRelationBelongsTo.m; path = iActiveRecord/iActiveRecord/ARRelationBelongsTo.m; sourceTree = SOURCE_ROOT; };
+		4E113B5FBED44A238AC41754 /* NUITabBarRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITabBarRenderer.m; path = NUI/NUI/Core/Renderers/NUITabBarRenderer.m; sourceTree = SOURCE_ROOT; };
+		4E757101EA8D4907B0243FF5 /* ARColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARColumn.m; path = iActiveRecord/iActiveRecord/ARColumn.m; sourceTree = SOURCE_ROOT; };
+		4EC7919006EE45408D51A6D6 /* NSNumber+Rubyfy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Rubyfy.m"; path = "ObjectiveSugar/src/NSNumber+Rubyfy.m"; sourceTree = SOURCE_ROOT; };
+		506986E005194AD68FB84762 /* UIButton+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+NUI.h"; path = "NUI/NUI/UI/UIButton+NUI.h"; sourceTree = SOURCE_ROOT; };
+		518E0A2CED2B4311A827ECC6 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = SOURCE_ROOT; };
+		54424FAA85BD4335B5F92644 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = SBJson/Classes/SBJsonStreamWriter.h; sourceTree = SOURCE_ROOT; };
+		5598E3393C63451A94DD1580 /* AREnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AREnum.h; path = iActiveRecord/iActiveRecord/AREnum.h; sourceTree = SOURCE_ROOT; };
+		57726B41E0D340AF9FEBED6D /* ARValidatorPresence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARValidatorPresence.m; path = iActiveRecord/iActiveRecord/ARValidatorPresence.m; sourceTree = SOURCE_ROOT; };
+		59F7C8D1AC294F42BD25D8FC /* ARDatabaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARDatabaseManager.m; path = iActiveRecord/iActiveRecord/ARDatabaseManager.m; sourceTree = SOURCE_ROOT; };
+		5A10508612D349F79F18FE08 /* ARRepresentationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARRepresentationProtocol.h; path = iActiveRecord/iActiveRecord/ARRepresentationProtocol.h; sourceTree = SOURCE_ROOT; };
+		5B24AB20FBCE450E917D27AC /* ARValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARValidator.h; path = iActiveRecord/iActiveRecord/ARValidator.h; sourceTree = SOURCE_ROOT; };
+		5B4B1BFB0F994129884585DC /* NUITextFieldRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUITextFieldRenderer.m; path = NUI/NUI/Core/Renderers/NUITextFieldRenderer.m; sourceTree = SOURCE_ROOT; };
+		5B8F534D76794320B92850A4 /* NUIBarButtonItemRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIBarButtonItemRenderer.h; path = NUI/NUI/Core/Renderers/NUIBarButtonItemRenderer.h; sourceTree = SOURCE_ROOT; };
+		5E57476EB753408B87FB8108 /* UIView+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NUI.h"; path = "NUI/NUI/UI/UIView+NUI.h"; sourceTree = SOURCE_ROOT; };
+		5EADDC35CA5A4959BEB20A81 /* ARValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARValidation.m; path = iActiveRecord/iActiveRecord/ARValidation.m; sourceTree = SOURCE_ROOT; };
+		5EF967C80C3340478584C307 /* UITableViewCell+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+NUI.h"; path = "NUI/NUI/UI/UITableViewCell+NUI.h"; sourceTree = SOURCE_ROOT; };
+		60E5097AC98847529383DE95 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = SBJson/Classes/SBJsonTokeniser.m; sourceTree = SOURCE_ROOT; };
+		61740516960B48D48660FF16 /* NSObject+SBJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJson.m"; path = "SBJson/Classes/NSObject+SBJson.m"; sourceTree = SOURCE_ROOT; };
+		629894229C4140C3B2373952 /* NSDate+isPresented.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+isPresented.m"; path = "iActiveRecord/iActiveRecord/NSDate+isPresented.m"; sourceTree = SOURCE_ROOT; };
+		63ED5BB8EE764C2BBB893AA0 /* NSString+quotedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+quotedString.h"; path = "iActiveRecord/iActiveRecord/NSString+quotedString.h"; sourceTree = SOURCE_ROOT; };
+		6664E127A4B746D9850830A3 /* NUIButtonRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIButtonRenderer.m; path = NUI/NUI/Core/Renderers/NUIButtonRenderer.m; sourceTree = SOURCE_ROOT; };
+		6706EDABDC05488584D4F88C /* UINavigationBar+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+NUI.m"; path = "NUI/NUI/UI/UINavigationBar+NUI.m"; sourceTree = SOURCE_ROOT; };
+		6732B5577E824E31AEDDD688 /* ARDynamicAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARDynamicAccessor.h; path = iActiveRecord/iActiveRecord/ARDynamicAccessor.h; sourceTree = SOURCE_ROOT; };
+		683B88A6FEDA4FB8925B0AF6 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = SBJson/Classes/SBJsonStreamParserAdapter.m; sourceTree = SOURCE_ROOT; };
+		6AC49EA20C334386B956CBA1 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = SOURCE_ROOT; };
+		6EDA4FFBD5244EC4B4AD33D1 /* NSString+lowercaseFirst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+lowercaseFirst.m"; path = "iActiveRecord/iActiveRecord/NSString+lowercaseFirst.m"; sourceTree = SOURCE_ROOT; };
+		6F939FA004714B7EB96B0172 /* NUITabBarItemRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITabBarItemRenderer.h; path = NUI/NUI/Core/Renderers/NUITabBarItemRenderer.h; sourceTree = SOURCE_ROOT; };
+		71393919448848E59EEC4E6F /* NSNumber+isPresented.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+isPresented.h"; path = "iActiveRecord/iActiveRecord/NSNumber+isPresented.h"; sourceTree = SOURCE_ROOT; };
+		71481C1A3B1B486692B7DBEC /* ActiveRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActiveRecord.h; path = iActiveRecord/iActiveRecord/ActiveRecord.h; sourceTree = SOURCE_ROOT; };
+		7179B12B741446FABC1169E1 /* ObjectiveSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectiveSugar.h; path = ObjectiveSugar/src/ObjectiveSugar.h; sourceTree = SOURCE_ROOT; };
+		71A49D29455246F0B8CCB831 /* UIBarButtonItem+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+NUI.h"; path = "NUI/NUI/UI/UIBarButtonItem+NUI.h"; sourceTree = SOURCE_ROOT; };
+		71ED8B65AFC842E1A113008B /* NUINavigationBarRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUINavigationBarRenderer.m; path = NUI/NUI/Core/Renderers/NUINavigationBarRenderer.m; sourceTree = SOURCE_ROOT; };
+		72054C34C2784E0B950AE081 /* UITabBar+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+NUI.m"; path = "NUI/NUI/UI/UITabBar+NUI.m"; sourceTree = SOURCE_ROOT; };
+		755FABFF70B5415C95703801 /* ARLazyFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARLazyFetcher.m; path = iActiveRecord/iActiveRecord/ARLazyFetcher.m; sourceTree = SOURCE_ROOT; };
+		75DF088FC6AC46919BA94EA2 /* NUIStyleParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIStyleParser.h; path = NUI/NUI/Core/NUIStyleParser.h; sourceTree = SOURCE_ROOT; };
+		79094973432F4E6F87BF41E2 /* ARRelationHasMany.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARRelationHasMany.h; path = iActiveRecord/iActiveRecord/ARRelationHasMany.h; sourceTree = SOURCE_ROOT; };
+		7A16BC37F9144617BDE8BF2A /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7AC3259FDF3047BD93FE51A9 /* NUILabelRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUILabelRenderer.m; path = NUI/NUI/Core/Renderers/NUILabelRenderer.m; sourceTree = SOURCE_ROOT; };
+		7AEF70FFEE9246E99EC6E4EF /* ARValidatorUniqueness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARValidatorUniqueness.h; path = iActiveRecord/iActiveRecord/ARValidatorUniqueness.h; sourceTree = SOURCE_ROOT; };
+		7C4089E17E2A4D3FBA1B2F35 /* NSData+isPresented.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+isPresented.h"; path = "iActiveRecord/iActiveRecord/NSData+isPresented.h"; sourceTree = SOURCE_ROOT; };
+		813B4E33746D4896AC49BCB7 /* ARError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARError.h; path = iActiveRecord/iActiveRecord/ARError.h; sourceTree = SOURCE_ROOT; };
+		81AF3C22464546FE8F5D5A59 /* NUILabelRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUILabelRenderer.h; path = NUI/NUI/Core/Renderers/NUILabelRenderer.h; sourceTree = SOURCE_ROOT; };
+		84A0D34820AF400D80ECE699 /* NSMutableDictionary+valueToArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+valueToArray.h"; path = "iActiveRecord/iActiveRecord/NSMutableDictionary+valueToArray.h"; sourceTree = SOURCE_ROOT; };
+		85EDCAB3EE784B8C886D3AF6 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = SBJson/Classes/SBJsonStreamParserState.h; sourceTree = SOURCE_ROOT; };
+		867770F2BFED4717817FE588 /* NSData+isPresented.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+isPresented.m"; path = "iActiveRecord/iActiveRecord/NSData+isPresented.m"; sourceTree = SOURCE_ROOT; };
+		86E9358C4B3A49B1A2410672 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		879CDA68BFD94B9799B2CC17 /* NSData+sqlRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+sqlRepresentation.m"; path = "iActiveRecord/iActiveRecord/NSData+sqlRepresentation.m"; sourceTree = SOURCE_ROOT; };
+		8A015C0ECE1D400BB7BAF17A /* ARErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARErrorHelper.h; path = iActiveRecord/iActiveRecord/ARErrorHelper.h; sourceTree = SOURCE_ROOT; };
+		8B98FAEE1E8546A39229A23E /* NUIButtonRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIButtonRenderer.h; path = NUI/NUI/Core/Renderers/NUIButtonRenderer.h; sourceTree = SOURCE_ROOT; };
+		8D114CA757E54F3984A513A1 /* NUIViewRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIViewRenderer.m; path = NUI/NUI/Core/Renderers/NUIViewRenderer.m; sourceTree = SOURCE_ROOT; };
+		8E9755EBFE73476A973FA248 /* ARException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARException.m; path = iActiveRecord/iActiveRecord/ARException.m; sourceTree = SOURCE_ROOT; };
+		8EE41B887DD649939BECC185 /* NUINavigationBarRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUINavigationBarRenderer.h; path = NUI/NUI/Core/Renderers/NUINavigationBarRenderer.h; sourceTree = SOURCE_ROOT; };
+		8F092A704C334442B39AA480 /* NUINavigationItemRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUINavigationItemRenderer.m; path = NUI/NUI/Core/Renderers/NUINavigationItemRenderer.m; sourceTree = SOURCE_ROOT; };
+		8F7CE4CAC0F948FAB5EEFE1B /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = SOURCE_ROOT; };
+		909D8F78BBA14C64BBECBB67 /* ARRelationHasManyThrough.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARRelationHasManyThrough.m; path = iActiveRecord/iActiveRecord/ARRelationHasManyThrough.m; sourceTree = SOURCE_ROOT; };
+		91AD5D5E6BDF408FBBF6B42E /* UINavigationItem+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+NUI.m"; path = "NUI/NUI/UI/UINavigationItem+NUI.m"; sourceTree = SOURCE_ROOT; };
+		91C81183E9E447208151C0AB /* ARBaseRelationship.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARBaseRelationship.m; path = iActiveRecord/iActiveRecord/ARBaseRelationship.m; sourceTree = SOURCE_ROOT; };
+		92F2A650B325424C90CF954A /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = SBJson/Classes/SBJsonStreamWriterState.h; sourceTree = SOURCE_ROOT; };
+		93F7AFEEA8454326BEFA1DF8 /* UILabel+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+NUI.m"; path = "NUI/NUI/UI/UILabel+NUI.m"; sourceTree = SOURCE_ROOT; };
+		969F566E1C654F74BC2DB48A /* ARColumnType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARColumnType.h; path = iActiveRecord/iActiveRecord/ARColumnType.h; sourceTree = SOURCE_ROOT; };
+		96AFC9D3368A4CC8B873CA87 /* NSDictionary+Rubyfy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Rubyfy.m"; path = "ObjectiveSugar/src/NSDictionary+Rubyfy.m"; sourceTree = SOURCE_ROOT; };
+		97897436FA5C45B396BDE23C /* NSArray+objectsAccessors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+objectsAccessors.m"; path = "iActiveRecord/iActiveRecord/NSArray+objectsAccessors.m"; sourceTree = SOURCE_ROOT; };
+		983309D8F4F7482CBDF46FAD /* UIBarButtonItem+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+NUI.m"; path = "NUI/NUI/UI/UIBarButtonItem+NUI.m"; sourceTree = SOURCE_ROOT; };
+		994C5FE211564A80B02C1BDB /* SBJsonWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = SBJson/Classes/SBJsonWriter.m; sourceTree = SOURCE_ROOT; };
+		9ADAABABC38146FC9BA6A4C9 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = SBJson/Classes/SBJsonStreamParserState.m; sourceTree = SOURCE_ROOT; };
+		9B44F158161F406588B2BAFE /* UITableViewCell+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+NUI.m"; path = "NUI/NUI/UI/UITableViewCell+NUI.m"; sourceTree = SOURCE_ROOT; };
+		9CEE91477E294BB38E503633 /* SBJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = SBJson/Classes/SBJsonParser.h; sourceTree = SOURCE_ROOT; };
+		9D1A86F55A454B22AE49EE9B /* sqlite3_unicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3_unicode.h; path = iActiveRecord/iActiveRecord/deps/sqlite3_unicode.h; sourceTree = SOURCE_ROOT; };
+		9D4AA99019EC4824A60150F6 /* ARSQLBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARSQLBuilder.m; path = iActiveRecord/iActiveRecord/ARSQLBuilder.m; sourceTree = SOURCE_ROOT; };
+		9D973D1E69234E20803B1DD6 /* NSMutableArray+Rubyfy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Rubyfy.m"; path = "ObjectiveSugar/src/NSMutableArray+Rubyfy.m"; sourceTree = SOURCE_ROOT; };
+		9FDE6AD68A3D4ACB8214BF82 /* NUISettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISettings.h; path = NUI/NUI/Core/NUISettings.h; sourceTree = SOURCE_ROOT; };
+		A050ABD76EFC43669BB90135 /* ARSchemaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARSchemaManager.h; path = iActiveRecord/iActiveRecord/ARSchemaManager.h; sourceTree = SOURCE_ROOT; };
+		A206689CE4914395B1511328 /* NUISegmentedControlRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISegmentedControlRenderer.h; path = NUI/NUI/Core/Renderers/NUISegmentedControlRenderer.h; sourceTree = SOURCE_ROOT; };
+		A24F6B4864AD46988C579191 /* NSDate+sqlRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+sqlRepresentation.m"; path = "iActiveRecord/iActiveRecord/NSDate+sqlRepresentation.m"; sourceTree = SOURCE_ROOT; };
+		A28FC3AD650A4A0B9AEACEDC /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterAccumulator.h; path = SBJson/Classes/SBJsonStreamWriterAccumulator.h; sourceTree = SOURCE_ROOT; };
+		A2C54F4745E546CE83C48564 /* NUISwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUISwizzler.h; path = NUI/NUI/Core/NUISwizzler.h; sourceTree = SOURCE_ROOT; };
+		A6A6A7A434664FB199797966 /* NUITabBarRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUITabBarRenderer.h; path = NUI/NUI/Core/Renderers/NUITabBarRenderer.h; sourceTree = SOURCE_ROOT; };
+		A78646E0C7E441C7B55D4A39 /* NUIConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIConverter.m; path = NUI/NUI/Core/NUIConverter.m; sourceTree = SOURCE_ROOT; };
+		AA1198937B784EDB943C5A1F /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "iActiveRecord/iActiveRecord/NSData+Base64.h"; sourceTree = SOURCE_ROOT; };
+		AA18127A5891440FA83F37E0 /* NSString+lowercaseFirst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+lowercaseFirst.h"; path = "iActiveRecord/iActiveRecord/NSString+lowercaseFirst.h"; sourceTree = SOURCE_ROOT; };
+		AAD47200AA524EFFB71CCD44 /* UISegmentedControl+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+NUI.m"; path = "NUI/NUI/UI/UISegmentedControl+NUI.m"; sourceTree = SOURCE_ROOT; };
+		ABE660B71FC3438AB7EEB51F /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = SBJson/Classes/SBJsonUTF8Stream.m; sourceTree = SOURCE_ROOT; };
+		AC39FC42B28743C78805B28A /* NUIGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIGraphics.h; path = NUI/NUI/Core/NUIGraphics.h; sourceTree = SOURCE_ROOT; };
+		AE7BEA1F137042D99BAF0E3B /* NUIUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIUtilities.m; path = NUI/NUI/Core/NUIUtilities.m; sourceTree = SOURCE_ROOT; };
+		AED22197AA4B4867B7F2289E /* NUIRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIRenderer.h; path = NUI/NUI/Core/NUIRenderer.h; sourceTree = SOURCE_ROOT; };
+		B00C6A0F40D04670B8BD2BAC /* NSDecimalNumber+sqlRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+sqlRepresentation.h"; path = "iActiveRecord/iActiveRecord/NSDecimalNumber+sqlRepresentation.h"; sourceTree = SOURCE_ROOT; };
+		B0163C087EB549A987320F08 /* NUINavigationItemRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUINavigationItemRenderer.h; path = NUI/NUI/Core/Renderers/NUINavigationItemRenderer.h; sourceTree = SOURCE_ROOT; };
+		B17C5549F02040F19CB61AA2 /* UINavigationBar+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+NUI.h"; path = "NUI/NUI/UI/UINavigationBar+NUI.h"; sourceTree = SOURCE_ROOT; };
+		B1A57838D7764D3C818E8C85 /* PodsDummy_Pods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PodsDummy_Pods.m; sourceTree = SOURCE_ROOT; };
+		B316C03E4AF34B6F9B3A6E41 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonUTF8Stream.h; path = SBJson/Classes/SBJsonUTF8Stream.h; sourceTree = SOURCE_ROOT; };
+		B3FBB0EBC6F547E58A047708 /* NSDictionary+Rubyfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Rubyfy.h"; path = "ObjectiveSugar/src/NSDictionary+Rubyfy.h"; sourceTree = SOURCE_ROOT; };
+		B728D90BDEDD49D398EA01CE /* ARRelationBelongsTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARRelationBelongsTo.h; path = iActiveRecord/iActiveRecord/ARRelationBelongsTo.h; sourceTree = SOURCE_ROOT; };
+		B760222DB10C47B19AEAC3A1 /* UITextField+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+NUI.h"; path = "NUI/NUI/UI/UITextField+NUI.h"; sourceTree = SOURCE_ROOT; };
+		B96793B3581C4AB2AD29B18E /* SBJsonTokeniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = SBJson/Classes/SBJsonTokeniser.h; sourceTree = SOURCE_ROOT; };
+		BC5A47524E0E40BFA9925DD0 /* ARValidatorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARValidatorProtocol.h; path = iActiveRecord/iActiveRecord/ARValidatorProtocol.h; sourceTree = SOURCE_ROOT; };
+		BF147DFA869C4B78BDF5380A /* NSNumber+sqlRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+sqlRepresentation.m"; path = "iActiveRecord/iActiveRecord/NSNumber+sqlRepresentation.m"; sourceTree = SOURCE_ROOT; };
+		C20FA1E2B5DE4E2DAB08D013 /* NSString+uppercaseFirst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+uppercaseFirst.h"; path = "iActiveRecord/iActiveRecord/NSString+uppercaseFirst.h"; sourceTree = SOURCE_ROOT; };
+		C3D7E8755C094A458DFD176F /* NSArray+Accessors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Accessors.m"; path = "ObjectiveSugar/src/NSArray+Accessors.m"; sourceTree = SOURCE_ROOT; };
+		C5257B6F04B6487C95D26C1B /* ARValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARValidation.h; path = iActiveRecord/iActiveRecord/ARValidation.h; sourceTree = SOURCE_ROOT; };
+		C52ED50DDAAA4BEAAC418DBE /* UISegmentedControl+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+NUI.h"; path = "NUI/NUI/UI/UISegmentedControl+NUI.h"; sourceTree = SOURCE_ROOT; };
+		C61C6A29F1964DEE89173C35 /* ARError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARError.m; path = iActiveRecord/iActiveRecord/ARError.m; sourceTree = SOURCE_ROOT; };
+		CA29ABD4D57148DF96929E48 /* NSString+uppercaseFirst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+uppercaseFirst.m"; path = "iActiveRecord/iActiveRecord/NSString+uppercaseFirst.m"; sourceTree = SOURCE_ROOT; };
+		CABF96F31B0B41FE98ECC11B /* NUIRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIRenderer.m; path = NUI/NUI/Core/NUIRenderer.m; sourceTree = SOURCE_ROOT; };
+		CB54C4617F4F4818942CF1C3 /* UIButton+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+NUI.m"; path = "NUI/NUI/UI/UIButton+NUI.m"; sourceTree = SOURCE_ROOT; };
+		CB817A6D6D884FE9AC322113 /* ARColumn_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARColumn_Private.h; path = iActiveRecord/iActiveRecord/ARColumn_Private.h; sourceTree = SOURCE_ROOT; };
+		CE69ADDAF57C4D3C90199AE2 /* NUIBarButtonItemRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIBarButtonItemRenderer.m; path = NUI/NUI/Core/Renderers/NUIBarButtonItemRenderer.m; sourceTree = SOURCE_ROOT; };
+		CF4B6EA555B54C5BB9E8F157 /* UIView+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NUI.m"; path = "NUI/NUI/UI/UIView+NUI.m"; sourceTree = SOURCE_ROOT; };
+		D06AED2EE1A94FFABB68795A /* NSDecimalNumber+isPresented.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+isPresented.m"; path = "iActiveRecord/iActiveRecord/NSDecimalNumber+isPresented.m"; sourceTree = SOURCE_ROOT; };
+		D20BCA5075A9465C8A867B13 /* ARColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARColumn.h; path = iActiveRecord/iActiveRecord/ARColumn.h; sourceTree = SOURCE_ROOT; };
+		D38187663BB945B3997A7142 /* UILabel+NUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+NUI.h"; path = "NUI/NUI/UI/UILabel+NUI.h"; sourceTree = SOURCE_ROOT; };
+		D59F746212A7451C80E81842 /* NSDecimalNumber+sqlRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+sqlRepresentation.m"; path = "iActiveRecord/iActiveRecord/NSDecimalNumber+sqlRepresentation.m"; sourceTree = SOURCE_ROOT; };
+		D5A9F247B5B8416E9C889FA7 /* ARRelationHasMany.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARRelationHasMany.m; path = iActiveRecord/iActiveRecord/ARRelationHasMany.m; sourceTree = SOURCE_ROOT; };
+		D5FF08E0039845A78F164E2B /* NUISettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISettings.m; path = NUI/NUI/Core/NUISettings.m; sourceTree = SOURCE_ROOT; };
+		D611B0AF7D7E4221BCF62838 /* NUIUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NUIUtilities.h; path = NUI/NUI/Core/NUIUtilities.h; sourceTree = SOURCE_ROOT; };
+		DA3E55C9C3024CDFA7A512EC /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = SBJson/Classes/SBJsonStreamWriterState.m; sourceTree = SOURCE_ROOT; };
+		DB1C0FD5624D47AFBB98D912 /* ARSchemaManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARSchemaManager.m; path = iActiveRecord/iActiveRecord/ARSchemaManager.m; sourceTree = SOURCE_ROOT; };
+		DF3FEC3C70764BD2A2ADF7FC /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAccumulator.h; path = SBJson/Classes/SBJsonStreamParserAccumulator.h; sourceTree = SOURCE_ROOT; };
+		DFA72096B8034440AE851AE3 /* NSArray+toSql.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+toSql.h"; path = "iActiveRecord/iActiveRecord/NSArray+toSql.h"; sourceTree = SOURCE_ROOT; };
+		E0CCEB1187D5407CAB554822 /* NSDecimalNumber+isPresented.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+isPresented.h"; path = "iActiveRecord/iActiveRecord/NSDecimalNumber+isPresented.h"; sourceTree = SOURCE_ROOT; };
+		E14AE90EE82643DCAD48C988 /* ARDynamicAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARDynamicAccessor.m; path = iActiveRecord/iActiveRecord/ARDynamicAccessor.m; sourceTree = SOURCE_ROOT; };
+		E2BAD3C441174B93A7AADA6A /* NSNumber+sqlRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+sqlRepresentation.h"; path = "iActiveRecord/iActiveRecord/NSNumber+sqlRepresentation.h"; sourceTree = SOURCE_ROOT; };
+		E4C6184ACB3244ACB50452FD /* UITabBarItem+NUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+NUI.m"; path = "NUI/NUI/UI/UITabBarItem+NUI.m"; sourceTree = SOURCE_ROOT; };
+		E4F6EA0566E041A3B6729232 /* NSObject+SBJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJson.h"; path = "SBJson/Classes/NSObject+SBJson.h"; sourceTree = SOURCE_ROOT; };
+		E898E31FAD384EDB8B9C9880 /* NUIStyleParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUIStyleParser.m; path = NUI/NUI/Core/NUIStyleParser.m; sourceTree = SOURCE_ROOT; };
+		E97D3067946D46AD8B50E31D /* NSString+isPresented.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+isPresented.h"; path = "iActiveRecord/iActiveRecord/NSString+isPresented.h"; sourceTree = SOURCE_ROOT; };
+		EAA4EF4D125A4EC19B83C1F6 /* NSArray+objectsAccessors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+objectsAccessors.h"; path = "iActiveRecord/iActiveRecord/NSArray+objectsAccessors.h"; sourceTree = SOURCE_ROOT; };
+		EF587E3491D242C2AF7395E8 /* ARSQLBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARSQLBuilder.h; path = iActiveRecord/iActiveRecord/ARSQLBuilder.h; sourceTree = SOURCE_ROOT; };
+		EF70D5881B734B66A9D1D77F /* ARLazyFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARLazyFetcher.h; path = iActiveRecord/iActiveRecord/ARLazyFetcher.h; sourceTree = SOURCE_ROOT; };
+		EFA0D256E4E74C8E91878BED /* NUISegmentedControlRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NUISegmentedControlRenderer.m; path = NUI/NUI/Core/Renderers/NUISegmentedControlRenderer.m; sourceTree = SOURCE_ROOT; };
+		F3F84608611E4EA496003A21 /* ActiveRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActiveRecord.m; path = iActiveRecord/iActiveRecord/ActiveRecord.m; sourceTree = SOURCE_ROOT; };
+		F5620F5B45A84CBB99FB8E62 /* ARValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARValidator.m; path = iActiveRecord/iActiveRecord/ARValidator.m; sourceTree = SOURCE_ROOT; };
+		F58F84D2BBD34AFAAED1B37B /* NSString+quotedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+quotedString.m"; path = "iActiveRecord/iActiveRecord/NSString+quotedString.m"; sourceTree = SOURCE_ROOT; };
+		F940E96E1EA8455E993A7352 /* NSSet+toSql.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+toSql.h"; path = "iActiveRecord/iActiveRecord/NSSet+toSql.h"; sourceTree = SOURCE_ROOT; };
+		F9A4340F90544A1C9F49D31E /* NSString+isPresented.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+isPresented.m"; path = "iActiveRecord/iActiveRecord/NSString+isPresented.m"; sourceTree = SOURCE_ROOT; };
+		F9DC7CECFA82427294D48422 /* NSSet+Accessors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+Accessors.m"; path = "ObjectiveSugar/src/NSSet+Accessors.m"; sourceTree = SOURCE_ROOT; };
+		FA31A0EE31D44CA28B0580E7 /* SBJsonWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = SBJson/Classes/SBJsonWriter.h; sourceTree = SOURCE_ROOT; };
+		FB25B5EB61604C64A149D006 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = SBJson/Classes/SBJsonStreamWriterAccumulator.m; sourceTree = SOURCE_ROOT; };
+		FF40E89025974AC5A1B9D228 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B32E96EDB44681B56E3264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66BDE09FB64E31A4A357C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E614B925D044C09B5C4DB57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E9358C4B3A49B1A2410672 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D0C2573200456392A8FCCF /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				E4F6EA0566E041A3B6729232 /* NSObject+SBJson.h */,
+				04EC88C915F04E74B6E9D038 /* SBJson.h */,
+				9CEE91477E294BB38E503633 /* SBJsonParser.h */,
+				05A6070758D8498C83D7F4A3 /* SBJsonStreamParser.h */,
+				DF3FEC3C70764BD2A2ADF7FC /* SBJsonStreamParserAccumulator.h */,
+				116C5476BFE8424BBB5C206C /* SBJsonStreamParserAdapter.h */,
+				85EDCAB3EE784B8C886D3AF6 /* SBJsonStreamParserState.h */,
+				54424FAA85BD4335B5F92644 /* SBJsonStreamWriter.h */,
+				A28FC3AD650A4A0B9AEACEDC /* SBJsonStreamWriterAccumulator.h */,
+				92F2A650B325424C90CF954A /* SBJsonStreamWriterState.h */,
+				B96793B3581C4AB2AD29B18E /* SBJsonTokeniser.h */,
+				B316C03E4AF34B6F9B3A6E41 /* SBJsonUTF8Stream.h */,
+				FA31A0EE31D44CA28B0580E7 /* SBJsonWriter.h */,
+				61740516960B48D48660FF16 /* NSObject+SBJson.m */,
+				43E49F1EE4BF4353872CD5A6 /* SBJsonParser.m */,
+				29CBDDCBBB254207B7C552E3 /* SBJsonStreamParser.m */,
+				03B412FD6B6E47D792F14667 /* SBJsonStreamParserAccumulator.m */,
+				683B88A6FEDA4FB8925B0AF6 /* SBJsonStreamParserAdapter.m */,
+				9ADAABABC38146FC9BA6A4C9 /* SBJsonStreamParserState.m */,
+				0E292D540F064105A76B0498 /* SBJsonStreamWriter.m */,
+				FB25B5EB61604C64A149D006 /* SBJsonStreamWriterAccumulator.m */,
+				DA3E55C9C3024CDFA7A512EC /* SBJsonStreamWriterState.m */,
+				60E5097AC98847529383DE95 /* SBJsonTokeniser.m */,
+				ABE660B71FC3438AB7EEB51F /* SBJsonUTF8Stream.m */,
+				994C5FE211564A80B02C1BDB /* SBJsonWriter.m */,
+			);
+			name = SBJson;
+			sourceTree = "<group>";
+		};
+		48F580258EB744EAB8E24084 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30FD71A7FA414AEBB50C5B74 /* Pods-resources.sh */,
+				7A16BC37F9144617BDE8BF2A /* Pods-prefix.pch */,
+				1BD0C88CEE9845E88941C9B8 /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		577E1B3122124A19949646EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48F580258EB744EAB8E24084 /* Pods */,
+				B1A57838D7764D3C818E8C85 /* PodsDummy_Pods.m */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AAFF5CA3E07E4C0A8F39A164 /* iActiveRecord */ = {
+			isa = PBXGroup;
+			children = (
+				71481C1A3B1B486692B7DBEC /* ActiveRecord.h */,
+				2D802032FC7C42099A02DD25 /* ActiveRecord_Private.h */,
+				2A5A951DCB2747989AF29DC1 /* ARBaseRelationship.h */,
+				D20BCA5075A9465C8A867B13 /* ARColumn.h */,
+				CB817A6D6D884FE9AC322113 /* ARColumn_Private.h */,
+				969F566E1C654F74BC2DB48A /* ARColumnType.h */,
+				29075AE285EF4837A51CC630 /* ARDatabaseManager.h */,
+				6732B5577E824E31AEDDD688 /* ARDynamicAccessor.h */,
+				5598E3393C63451A94DD1580 /* AREnum.h */,
+				813B4E33746D4896AC49BCB7 /* ARError.h */,
+				8A015C0ECE1D400BB7BAF17A /* ARErrorHelper.h */,
+				11C6A253047A4C07A276EA15 /* ARException.h */,
+				3DD5F0776A1B456E9664CB4E /* ARIndicesMacroHelper.h */,
+				EF70D5881B734B66A9D1D77F /* ARLazyFetcher.h */,
+				0952E3DCE1DA43A899CAAC6C /* ARLazyFetcher_Private.h */,
+				B728D90BDEDD49D398EA01CE /* ARRelationBelongsTo.h */,
+				79094973432F4E6F87BF41E2 /* ARRelationHasMany.h */,
+				05E387F665C34799A0F8AE03 /* ARRelationHasManyThrough.h */,
+				0165A11E62BA42CDB4E2B793 /* ARRelationshipsHelper.h */,
+				5A10508612D349F79F18FE08 /* ARRepresentationProtocol.h */,
+				A050ABD76EFC43669BB90135 /* ARSchemaManager.h */,
+				EF587E3491D242C2AF7395E8 /* ARSQLBuilder.h */,
+				C5257B6F04B6487C95D26C1B /* ARValidation.h */,
+				15202DE9F6D2426F9A617C7B /* ARValidationsHelper.h */,
+				5B24AB20FBCE450E917D27AC /* ARValidator.h */,
+				0305382365814D159F707C58 /* ARValidatorPresence.h */,
+				BC5A47524E0E40BFA9925DD0 /* ARValidatorProtocol.h */,
+				7AEF70FFEE9246E99EC6E4EF /* ARValidatorUniqueness.h */,
+				3CEE13941213441193FA7D98 /* class_getSubclasses.h */,
+				EAA4EF4D125A4EC19B83C1F6 /* NSArray+objectsAccessors.h */,
+				DFA72096B8034440AE851AE3 /* NSArray+toSql.h */,
+				AA1198937B784EDB943C5A1F /* NSData+Base64.h */,
+				7C4089E17E2A4D3FBA1B2F35 /* NSData+isPresented.h */,
+				0188D814C2B144E39812C106 /* NSData+sqlRepresentation.h */,
+				2FDA92769CCC4BDBB99A7F6C /* NSDate+isPresented.h */,
+				48320DF6AFCD4CDDB5E77211 /* NSDate+sqlRepresentation.h */,
+				E0CCEB1187D5407CAB554822 /* NSDecimalNumber+isPresented.h */,
+				B00C6A0F40D04670B8BD2BAC /* NSDecimalNumber+sqlRepresentation.h */,
+				84A0D34820AF400D80ECE699 /* NSMutableDictionary+valueToArray.h */,
+				71393919448848E59EEC4E6F /* NSNumber+isPresented.h */,
+				E2BAD3C441174B93A7AADA6A /* NSNumber+sqlRepresentation.h */,
+				F940E96E1EA8455E993A7352 /* NSSet+toSql.h */,
+				E97D3067946D46AD8B50E31D /* NSString+isPresented.h */,
+				AA18127A5891440FA83F37E0 /* NSString+lowercaseFirst.h */,
+				63ED5BB8EE764C2BBB893AA0 /* NSString+quotedString.h */,
+				3497635D51E14822BF697333 /* NSString+sqlRepresentation.h */,
+				3875C052E5784EEFAD562252 /* NSString+stringWithEscapedQuote.h */,
+				C20FA1E2B5DE4E2DAB08D013 /* NSString+uppercaseFirst.h */,
+				F3F84608611E4EA496003A21 /* ActiveRecord.m */,
+				91C81183E9E447208151C0AB /* ARBaseRelationship.m */,
+				4E757101EA8D4907B0243FF5 /* ARColumn.m */,
+				59F7C8D1AC294F42BD25D8FC /* ARDatabaseManager.m */,
+				E14AE90EE82643DCAD48C988 /* ARDynamicAccessor.m */,
+				C61C6A29F1964DEE89173C35 /* ARError.m */,
+				8E9755EBFE73476A973FA248 /* ARException.m */,
+				755FABFF70B5415C95703801 /* ARLazyFetcher.m */,
+				4CCEB87F509A422D9E8425F8 /* ARRelationBelongsTo.m */,
+				D5A9F247B5B8416E9C889FA7 /* ARRelationHasMany.m */,
+				909D8F78BBA14C64BBECBB67 /* ARRelationHasManyThrough.m */,
+				DB1C0FD5624D47AFBB98D912 /* ARSchemaManager.m */,
+				9D4AA99019EC4824A60150F6 /* ARSQLBuilder.m */,
+				5EADDC35CA5A4959BEB20A81 /* ARValidation.m */,
+				F5620F5B45A84CBB99FB8E62 /* ARValidator.m */,
+				57726B41E0D340AF9FEBED6D /* ARValidatorPresence.m */,
+				07045DB82B2E46418F3109E4 /* ARValidatorUniqueness.m */,
+				97897436FA5C45B396BDE23C /* NSArray+objectsAccessors.m */,
+				03F578D276AA4E7FA533D963 /* NSArray+toSql.m */,
+				1ECCC728FF844937BE43C85B /* NSData+Base64.m */,
+				867770F2BFED4717817FE588 /* NSData+isPresented.m */,
+				879CDA68BFD94B9799B2CC17 /* NSData+sqlRepresentation.m */,
+				629894229C4140C3B2373952 /* NSDate+isPresented.m */,
+				A24F6B4864AD46988C579191 /* NSDate+sqlRepresentation.m */,
+				D06AED2EE1A94FFABB68795A /* NSDecimalNumber+isPresented.m */,
+				D59F746212A7451C80E81842 /* NSDecimalNumber+sqlRepresentation.m */,
+				356DAC9934D646CC8DF9560E /* NSMutableDictionary+valueToArray.m */,
+				29263E6E23ED44AC8985E15A /* NSNumber+isPresented.m */,
+				BF147DFA869C4B78BDF5380A /* NSNumber+sqlRepresentation.m */,
+				1A0014B5DAD44BAD8EBD9352 /* NSSet+toSql.m */,
+				F9A4340F90544A1C9F49D31E /* NSString+isPresented.m */,
+				6EDA4FFBD5244EC4B4AD33D1 /* NSString+lowercaseFirst.m */,
+				F58F84D2BBD34AFAAED1B37B /* NSString+quotedString.m */,
+				046F920C9EF54DA698FA1B9B /* NSString+sqlRepresentation.m */,
+				25548BEFA61941CCB08F93BC /* NSString+stringWithEscapedQuote.m */,
+				CA29ABD4D57148DF96929E48 /* NSString+uppercaseFirst.m */,
+				3F105AA3D0994156884943C6 /* sqlite3_unicode.c */,
+				9D1A86F55A454B22AE49EE9B /* sqlite3_unicode.h */,
+			);
+			name = iActiveRecord;
+			sourceTree = "<group>";
+		};
+		B0B4B6A85A854777BC0B6C6C = {
+			isa = PBXGroup;
+			children = (
+				0E614B925D044C09B5C4DB57 /* Products */,
+				D156DB2262864FA8AB87583B /* Frameworks */,
+				C1625A1566B64694A896C9D6 /* Pods */,
+				577E1B3122124A19949646EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EF979302CC464A884A952B /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				6AC49EA20C334386B956CBA1 /* TPKeyboardAvoidingScrollView.h */,
+				8F7CE4CAC0F948FAB5EEFE1B /* TPKeyboardAvoidingScrollView.m */,
+				518E0A2CED2B4311A827ECC6 /* TPKeyboardAvoidingTableView.h */,
+				2A94F3AEB1DE49B9A8C19A9B /* TPKeyboardAvoidingTableView.m */,
+			);
+			name = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		B34236E9E4A84E3EBFDF97F5 /* NUI */ = {
+			isa = PBXGroup;
+			children = (
+				166A55F6BABD4C34B5B7EFE2 /* NUIAppearance.h */,
+				3B0A88DEC755429AA67F60E2 /* NUIConverter.h */,
+				AC39FC42B28743C78805B28A /* NUIGraphics.h */,
+				AED22197AA4B4867B7F2289E /* NUIRenderer.h */,
+				9FDE6AD68A3D4ACB8214BF82 /* NUISettings.h */,
+				75DF088FC6AC46919BA94EA2 /* NUIStyleParser.h */,
+				A2C54F4745E546CE83C48564 /* NUISwizzler.h */,
+				D611B0AF7D7E4221BCF62838 /* NUIUtilities.h */,
+				5B8F534D76794320B92850A4 /* NUIBarButtonItemRenderer.h */,
+				8B98FAEE1E8546A39229A23E /* NUIButtonRenderer.h */,
+				81AF3C22464546FE8F5D5A59 /* NUILabelRenderer.h */,
+				8EE41B887DD649939BECC185 /* NUINavigationBarRenderer.h */,
+				B0163C087EB549A987320F08 /* NUINavigationItemRenderer.h */,
+				A206689CE4914395B1511328 /* NUISegmentedControlRenderer.h */,
+				6F939FA004714B7EB96B0172 /* NUITabBarItemRenderer.h */,
+				A6A6A7A434664FB199797966 /* NUITabBarRenderer.h */,
+				15DC5C7854D1403BB3966C30 /* NUITableViewCellRenderer.h */,
+				160C70E1CE6241689C1DA0B5 /* NUITextFieldRenderer.h */,
+				21F9D3D0003247ACBB1E24FA /* NUIViewRenderer.h */,
+				71A49D29455246F0B8CCB831 /* UIBarButtonItem+NUI.h */,
+				506986E005194AD68FB84762 /* UIButton+NUI.h */,
+				D38187663BB945B3997A7142 /* UILabel+NUI.h */,
+				B17C5549F02040F19CB61AA2 /* UINavigationBar+NUI.h */,
+				1ECC8A1A32534A0DA777BB0C /* UINavigationItem+NUI.h */,
+				C52ED50DDAAA4BEAAC418DBE /* UISegmentedControl+NUI.h */,
+				1747C0A147B7414FBFA44892 /* UITabBar+NUI.h */,
+				05E9DD59FFFE45A6B38005DB /* UITabBarItem+NUI.h */,
+				5EF967C80C3340478584C307 /* UITableViewCell+NUI.h */,
+				B760222DB10C47B19AEAC3A1 /* UITextField+NUI.h */,
+				5E57476EB753408B87FB8108 /* UIView+NUI.h */,
+				40DDB730DB5F401693A693C5 /* NUIAppearance.m */,
+				A78646E0C7E441C7B55D4A39 /* NUIConverter.m */,
+				2E4AAA6C53CD4F6A86121FCB /* NUIGraphics.m */,
+				CABF96F31B0B41FE98ECC11B /* NUIRenderer.m */,
+				D5FF08E0039845A78F164E2B /* NUISettings.m */,
+				E898E31FAD384EDB8B9C9880 /* NUIStyleParser.m */,
+				303EB210C8044283870291F2 /* NUISwizzler.m */,
+				AE7BEA1F137042D99BAF0E3B /* NUIUtilities.m */,
+				CE69ADDAF57C4D3C90199AE2 /* NUIBarButtonItemRenderer.m */,
+				6664E127A4B746D9850830A3 /* NUIButtonRenderer.m */,
+				7AC3259FDF3047BD93FE51A9 /* NUILabelRenderer.m */,
+				71ED8B65AFC842E1A113008B /* NUINavigationBarRenderer.m */,
+				8F092A704C334442B39AA480 /* NUINavigationItemRenderer.m */,
+				EFA0D256E4E74C8E91878BED /* NUISegmentedControlRenderer.m */,
+				34289E3439C8481D94F6EFEF /* NUITabBarItemRenderer.m */,
+				4E113B5FBED44A238AC41754 /* NUITabBarRenderer.m */,
+				3989F33C5AB0429E8666E6A7 /* NUITableViewCellRenderer.m */,
+				5B4B1BFB0F994129884585DC /* NUITextFieldRenderer.m */,
+				8D114CA757E54F3984A513A1 /* NUIViewRenderer.m */,
+				983309D8F4F7482CBDF46FAD /* UIBarButtonItem+NUI.m */,
+				CB54C4617F4F4818942CF1C3 /* UIButton+NUI.m */,
+				93F7AFEEA8454326BEFA1DF8 /* UILabel+NUI.m */,
+				6706EDABDC05488584D4F88C /* UINavigationBar+NUI.m */,
+				91AD5D5E6BDF408FBBF6B42E /* UINavigationItem+NUI.m */,
+				AAD47200AA524EFFB71CCD44 /* UISegmentedControl+NUI.m */,
+				72054C34C2784E0B950AE081 /* UITabBar+NUI.m */,
+				E4C6184ACB3244ACB50452FD /* UITabBarItem+NUI.m */,
+				9B44F158161F406588B2BAFE /* UITableViewCell+NUI.m */,
+				1D53C22DC65B4D729BE09EFC /* UITextField+NUI.m */,
+				CF4B6EA555B54C5BB9E8F157 /* UIView+NUI.m */,
+			);
+			name = NUI;
+			sourceTree = "<group>";
+		};
+		C1625A1566B64694A896C9D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B34236E9E4A84E3EBFDF97F5 /* NUI */,
+				EEA48720011042FD93E9332F /* ObjectiveSugar */,
+				25D0C2573200456392A8FCCF /* SBJson */,
+				B2EF979302CC464A884A952B /* TPKeyboardAvoiding */,
+				AAFF5CA3E07E4C0A8F39A164 /* iActiveRecord */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D156DB2262864FA8AB87583B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF40E89025974AC5A1B9D228 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEA48720011042FD93E9332F /* ObjectiveSugar */ = {
+			isa = PBXGroup;
+			children = (
+				1B6E3932D19D4B78B4A16CF7 /* NSArray+Accessors.h */,
+				B3FBB0EBC6F547E58A047708 /* NSDictionary+Rubyfy.h */,
+				248924DBE4FB40A089F4BCF9 /* NSMutableArray+Rubyfy.h */,
+				2A28416E646D4CE08F91E0AA /* NSNumber+Rubyfy.h */,
+				2F38545F5C7C429D946344C1 /* NSSet+Accessors.h */,
+				7179B12B741446FABC1169E1 /* ObjectiveSugar.h */,
+				C3D7E8755C094A458DFD176F /* NSArray+Accessors.m */,
+				96AFC9D3368A4CC8B873CA87 /* NSDictionary+Rubyfy.m */,
+				9D973D1E69234E20803B1DD6 /* NSMutableArray+Rubyfy.m */,
+				4EC7919006EE45408D51A6D6 /* NSNumber+Rubyfy.m */,
+				F9DC7CECFA82427294D48422 /* NSSet+Accessors.m */,
+			);
+			name = ObjectiveSugar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63712DA5BC0A461894D1FF47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162E2A9A6FA148ABA8E64DD0 /* NUIAppearance.h in Headers */,
+				28CCEC678B684579A805731F /* NUIConverter.h in Headers */,
+				6F102389A462406ABA086190 /* NUIGraphics.h in Headers */,
+				6667D6CEBE02498B857B511B /* NUIRenderer.h in Headers */,
+				F9C6048E7084473797A15FB2 /* NUISettings.h in Headers */,
+				9C2AB3F674854168AA99CB1F /* NUIStyleParser.h in Headers */,
+				1676E67CF3F84CCAB01E45DF /* NUISwizzler.h in Headers */,
+				9D6065C25A5044F8BFD22977 /* NUIUtilities.h in Headers */,
+				4E1548DDBB744C86876EBB82 /* NUIBarButtonItemRenderer.h in Headers */,
+				5D9CC035570047DAB98029E0 /* NUIButtonRenderer.h in Headers */,
+				11D2B8E0044448EBBC89E3C7 /* NUILabelRenderer.h in Headers */,
+				B7DA74836E9145788C6DB355 /* NUINavigationBarRenderer.h in Headers */,
+				57E1DE53568A4A9089A96624 /* NUINavigationItemRenderer.h in Headers */,
+				BEB54C14E9D048A19BC7BE63 /* NUISegmentedControlRenderer.h in Headers */,
+				6EFC1C9C6D5C485695FEFB9C /* NUITabBarItemRenderer.h in Headers */,
+				B4D8E654746D4AFB9991CE26 /* NUITabBarRenderer.h in Headers */,
+				E64C9B7DC13C4EA294AA4A2C /* NUITableViewCellRenderer.h in Headers */,
+				0C99DCCD6C9045BA9FA88522 /* NUITextFieldRenderer.h in Headers */,
+				92B419151C034BE3803DF4AA /* NUIViewRenderer.h in Headers */,
+				BA53D7F179D44A39B63FA617 /* UIBarButtonItem+NUI.h in Headers */,
+				E7F388EAC92E45C087B1A5FA /* UIButton+NUI.h in Headers */,
+				0EC95AB94B62480CA2C0E1F2 /* UILabel+NUI.h in Headers */,
+				EBD23EF2F7254FA0BB92C7A3 /* UINavigationBar+NUI.h in Headers */,
+				1CE8840C5AD046FC8665F09B /* UINavigationItem+NUI.h in Headers */,
+				1E0236DE224E4F548CC30D8B /* UISegmentedControl+NUI.h in Headers */,
+				7F1ABEAADBD54195A80F1739 /* UITabBar+NUI.h in Headers */,
+				D3AB3C7CF1D64A52AAA5BAA4 /* UITabBarItem+NUI.h in Headers */,
+				FD77161E500C419BA25DFF48 /* UITableViewCell+NUI.h in Headers */,
+				3FBE8EEEC49C491D86B9B9C8 /* UITextField+NUI.h in Headers */,
+				F80AE3A4DA1E46C0B50F36EC /* UIView+NUI.h in Headers */,
+				2B2342BEE2D14DF8845D0BF8 /* NSArray+Accessors.h in Headers */,
+				25AAC4F4F2984C43A701CFA7 /* NSDictionary+Rubyfy.h in Headers */,
+				AA6D3F39CF134971A3750834 /* NSMutableArray+Rubyfy.h in Headers */,
+				AEB43C2720B24A539706BA6F /* NSNumber+Rubyfy.h in Headers */,
+				0041045301BF4AECA00EFFDD /* NSSet+Accessors.h in Headers */,
+				C20B88A2A41E4AF9819D6F19 /* ObjectiveSugar.h in Headers */,
+				95921C7D6DBE4B76B689F0AD /* NSObject+SBJson.h in Headers */,
+				C4D5BBA2A7234B088A8DCA76 /* SBJson.h in Headers */,
+				059BC044E80B4C12BECD3675 /* SBJsonParser.h in Headers */,
+				068D15FABE6E44BEB2D56733 /* SBJsonStreamParser.h in Headers */,
+				BD984EDCFF8E4418997AA140 /* SBJsonStreamParserAccumulator.h in Headers */,
+				10E5568E0AFB4DD8A8CD785C /* SBJsonStreamParserAdapter.h in Headers */,
+				B521574378064AF38BB1F97E /* SBJsonStreamParserState.h in Headers */,
+				BD812832B9A446FE9A846AB7 /* SBJsonStreamWriter.h in Headers */,
+				EA3D0127CDF24CCC8A33196D /* SBJsonStreamWriterAccumulator.h in Headers */,
+				4F88BDE70AE7419290536373 /* SBJsonStreamWriterState.h in Headers */,
+				6C9B030140FA4E67B52A6D91 /* SBJsonTokeniser.h in Headers */,
+				B8B68E0E549E40C89BA75BA4 /* SBJsonUTF8Stream.h in Headers */,
+				C802C9B1A8ED4F9D91ED8AC6 /* SBJsonWriter.h in Headers */,
+				471F5B7C559644E598E3C8D7 /* TPKeyboardAvoidingScrollView.h in Headers */,
+				3BC145BD2A91491187675AF9 /* TPKeyboardAvoidingTableView.h in Headers */,
+				EFEE180BB0E14E6F85D280E9 /* ActiveRecord.h in Headers */,
+				EF5F5009E03F4AD28C359C32 /* ActiveRecord_Private.h in Headers */,
+				FE2F0B4B304A42CC9BD637A6 /* ARBaseRelationship.h in Headers */,
+				5940D638DD634E1FA4742FEB /* ARColumn.h in Headers */,
+				2B100F56D7134CFB963F6773 /* ARColumn_Private.h in Headers */,
+				86A89963180543E28ED8BAD8 /* ARColumnType.h in Headers */,
+				FB62660C184E4471AB9DC139 /* ARDatabaseManager.h in Headers */,
+				3C6B5C900DB4483EB6AC038F /* ARDynamicAccessor.h in Headers */,
+				4153D528C4E44D2FA093A498 /* AREnum.h in Headers */,
+				3C658274745E4E20BB3C9BCB /* ARError.h in Headers */,
+				C13B9B2F3DB849E2A0C34DDD /* ARErrorHelper.h in Headers */,
+				5113F5B3C127477DAEA252C4 /* ARException.h in Headers */,
+				EE385115356B46538036D574 /* ARIndicesMacroHelper.h in Headers */,
+				B37E3E4425FF41B497F3C6DF /* ARLazyFetcher.h in Headers */,
+				D99AE734382B475BB637E11E /* ARLazyFetcher_Private.h in Headers */,
+				EFF5473A2BEC49FEA4A00FC9 /* ARRelationBelongsTo.h in Headers */,
+				808A3665D1CF435D9D0513FB /* ARRelationHasMany.h in Headers */,
+				6EAA94B65A9E447B8FEF9924 /* ARRelationHasManyThrough.h in Headers */,
+				C05E656F010947FA8B84D6E1 /* ARRelationshipsHelper.h in Headers */,
+				7D64F7CF3C794F229EA9BA5F /* ARRepresentationProtocol.h in Headers */,
+				AF9808C654AF471489CDF050 /* ARSchemaManager.h in Headers */,
+				F4F68E77793E4ABFA01C1837 /* ARSQLBuilder.h in Headers */,
+				2FFCA12B35364AE993BF3F92 /* ARValidation.h in Headers */,
+				82745C40935D46CAB3C0B001 /* ARValidationsHelper.h in Headers */,
+				24AB27B23F9C43199CFBEAA7 /* ARValidator.h in Headers */,
+				B25C26568E74443AB87EEE15 /* ARValidatorPresence.h in Headers */,
+				F16F85787C3E46098CB79162 /* ARValidatorProtocol.h in Headers */,
+				9C1D2A769C14451383B0DB95 /* ARValidatorUniqueness.h in Headers */,
+				AE0AA638450B4D35BB1CA47F /* class_getSubclasses.h in Headers */,
+				DF52309659C843D3B6565212 /* NSArray+objectsAccessors.h in Headers */,
+				5958A8973B7046969830DEB9 /* NSArray+toSql.h in Headers */,
+				E51C42E82EA44D7CB262A28D /* NSData+Base64.h in Headers */,
+				3863D7A08B284A408E3084CE /* NSData+isPresented.h in Headers */,
+				5009784FB4FA42558AD612C9 /* NSData+sqlRepresentation.h in Headers */,
+				0E1563AE5A1E4BCF9AA3F4CA /* NSDate+isPresented.h in Headers */,
+				627DCD62057D42A09B4FCB23 /* NSDate+sqlRepresentation.h in Headers */,
+				43536BBE7D244F50AC849018 /* NSDecimalNumber+isPresented.h in Headers */,
+				532B8AA630FF4B32A8C991EB /* NSDecimalNumber+sqlRepresentation.h in Headers */,
+				DA82EF7B78B1413A9FDFFE38 /* NSMutableDictionary+valueToArray.h in Headers */,
+				D27F60C71C2F41709AB18E97 /* NSNumber+isPresented.h in Headers */,
+				0EB671C2C468400BB69C38A3 /* NSNumber+sqlRepresentation.h in Headers */,
+				42CB6C43BA544301AD750DA6 /* NSSet+toSql.h in Headers */,
+				E3748BADA7404AC0B3199D54 /* NSString+isPresented.h in Headers */,
+				B4E639420A0844E3BDE72CE6 /* NSString+lowercaseFirst.h in Headers */,
+				E65991315A804842B820685A /* NSString+quotedString.h in Headers */,
+				725CC3EB829A4F9C90C30563 /* NSString+sqlRepresentation.h in Headers */,
+				66DD7AD923334F5ABA7FB23E /* NSString+stringWithEscapedQuote.h in Headers */,
+				7BB2978B254B4053BCE7EAFD /* NSString+uppercaseFirst.h in Headers */,
+				40247A7EDA974DD48DBCF453 /* sqlite3_unicode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EE54DFD3F8449A3B82C147E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4B449A86814A099301AE9F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				7BFC35D7EE724E259549766F /* Sources */,
+				A7B32E96EDB44681B56E3264 /* Frameworks */,
+				63712DA5BC0A461894D1FF47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 86E9358C4B3A49B1A2410672 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22B551018F34363865E6565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 0A56DD856EC84490B25AB2A8 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0B4B6A85A854777BC0B6C6C;
+			productRefGroup = 0E614B925D044C09B5C4DB57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE54DFD3F8449A3B82C147E /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BFC35D7EE724E259549766F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9134E6304002410FBDD44191 /* NUIAppearance.m in Sources */,
+				87478C9B573A4BA390E56357 /* NUIConverter.m in Sources */,
+				CC551B03E44643609A8F7AE0 /* NUIGraphics.m in Sources */,
+				FE90E8F1B2804BE492A1B8F9 /* NUIRenderer.m in Sources */,
+				3118C9EDEDC74716855F78B0 /* NUISettings.m in Sources */,
+				FEA172457D774DC280EBAE8A /* NUIStyleParser.m in Sources */,
+				CB6D04F28C6C4D08B117F9C3 /* NUISwizzler.m in Sources */,
+				FA22C9E38B6D41A694F135D1 /* NUIUtilities.m in Sources */,
+				52E0080056FD4890A0221B57 /* NUIBarButtonItemRenderer.m in Sources */,
+				37A3F8AF7EC1425E9B75C93F /* NUIButtonRenderer.m in Sources */,
+				A3F55AE16E9E40FE8F5A16CE /* NUILabelRenderer.m in Sources */,
+				F2A275E393FF41B093E1BD6E /* NUINavigationBarRenderer.m in Sources */,
+				717C8DFA7AE84AB4BDC8BBDE /* NUINavigationItemRenderer.m in Sources */,
+				6833AA2DAA5A4B4BBAAA3377 /* NUISegmentedControlRenderer.m in Sources */,
+				83CA187FC735451194B48749 /* NUITabBarItemRenderer.m in Sources */,
+				BEF4028DB487484EA1C304F5 /* NUITabBarRenderer.m in Sources */,
+				60215D1778FB4CBE9EDABA02 /* NUITableViewCellRenderer.m in Sources */,
+				0CB7F6EA229D40CABDFBF04B /* NUITextFieldRenderer.m in Sources */,
+				39DD72E79FD949F885BB545A /* NUIViewRenderer.m in Sources */,
+				213614BEC325411E8281D4CB /* UIBarButtonItem+NUI.m in Sources */,
+				723941FCC4EB4EE88A08FD59 /* UIButton+NUI.m in Sources */,
+				EDE70B5729D64D4CB008771C /* UILabel+NUI.m in Sources */,
+				C958FFE229934F4981E07CD8 /* UINavigationBar+NUI.m in Sources */,
+				BFF952499B9B45C7A12C4F55 /* UINavigationItem+NUI.m in Sources */,
+				4AE2B3FD9A2248D8A865384F /* UISegmentedControl+NUI.m in Sources */,
+				739EE3FE63F44FA2A882A53A /* UITabBar+NUI.m in Sources */,
+				C8686E16AAD14FFDAD90CA41 /* UITabBarItem+NUI.m in Sources */,
+				1A63205322154D17A92F4C98 /* UITableViewCell+NUI.m in Sources */,
+				EEE5F19898CD4660ACEF336D /* UITextField+NUI.m in Sources */,
+				62A4932B905B489695584D77 /* UIView+NUI.m in Sources */,
+				F356192FE1994D1E9662C935 /* NSArray+Accessors.m in Sources */,
+				7351EB812D5540CE8C4862F9 /* NSDictionary+Rubyfy.m in Sources */,
+				7DB8E54BD74B467B9F3FF523 /* NSMutableArray+Rubyfy.m in Sources */,
+				C5072FB1F1CD407798641AA8 /* NSNumber+Rubyfy.m in Sources */,
+				CD7C4577BD6A469BB97A6A80 /* NSSet+Accessors.m in Sources */,
+				BD90136B4EED44C0A68CC2FF /* NSObject+SBJson.m in Sources */,
+				D9AA6A915BBB4450A472557E /* SBJsonParser.m in Sources */,
+				0E6AA3A588BC4798A2EEB2F4 /* SBJsonStreamParser.m in Sources */,
+				B603529CCD9B479AB876EB5F /* SBJsonStreamParserAccumulator.m in Sources */,
+				A6FFC60DEED64F3D8761DBFA /* SBJsonStreamParserAdapter.m in Sources */,
+				0F4663AD4E6949A09180093C /* SBJsonStreamParserState.m in Sources */,
+				680D1ACC2BE542C5A314C83E /* SBJsonStreamWriter.m in Sources */,
+				9C34549E82874D3FA37EB7B4 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				EBF27248E0DD452EBB03EDC0 /* SBJsonStreamWriterState.m in Sources */,
+				DE257F27F2ED47AA99AE48C9 /* SBJsonTokeniser.m in Sources */,
+				DF021467ADD94A9E855EECF8 /* SBJsonUTF8Stream.m in Sources */,
+				A76CC66E38BC414A8C94A3CA /* SBJsonWriter.m in Sources */,
+				A707DE8816554241A15535E7 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				BA8EF8CECFC942F48A5570F9 /* TPKeyboardAvoidingTableView.m in Sources */,
+				4B0971C72C14442BB5E4E3C4 /* ActiveRecord.m in Sources */,
+				8CE8501B0E6946B68E4713B9 /* ARBaseRelationship.m in Sources */,
+				719758A5D13447CEB1337464 /* ARColumn.m in Sources */,
+				331EA3E7F7CA4CF6878AD80E /* ARDatabaseManager.m in Sources */,
+				F5696CFF0730448FB506FB76 /* ARDynamicAccessor.m in Sources */,
+				19769729D6E848CEA13FE30A /* ARError.m in Sources */,
+				EFDFFB3C1BAE4DDB8640FDE9 /* ARException.m in Sources */,
+				94825F6B9D6347B6B960A3A1 /* ARLazyFetcher.m in Sources */,
+				4E2D17A2A7BF47FABFEF82C8 /* ARRelationBelongsTo.m in Sources */,
+				2478389D73924D5EAC9367DA /* ARRelationHasMany.m in Sources */,
+				A4C69F0E1676490CA1718541 /* ARRelationHasManyThrough.m in Sources */,
+				2B2126422F0142D3985D2AA6 /* ARSchemaManager.m in Sources */,
+				EB5ADC036CBA4533B0998EAB /* ARSQLBuilder.m in Sources */,
+				31243375EA1549198E380BFD /* ARValidation.m in Sources */,
+				AAAF019C1E764412BA723F0C /* ARValidator.m in Sources */,
+				83BD68DA841943BFBC714AA6 /* ARValidatorPresence.m in Sources */,
+				ABB00D77056946A2A72A3C0E /* ARValidatorUniqueness.m in Sources */,
+				CA09E711BFC74F4494A426AF /* NSArray+objectsAccessors.m in Sources */,
+				458984812188482FB8DE44A1 /* NSArray+toSql.m in Sources */,
+				A284F8B028324827AADD3ADD /* NSData+Base64.m in Sources */,
+				527C0C487C88410E8871F2F9 /* NSData+isPresented.m in Sources */,
+				B91668E8B6C744749F324F7C /* NSData+sqlRepresentation.m in Sources */,
+				09457E50EA0C4AB3B6520C34 /* NSDate+isPresented.m in Sources */,
+				7C63A44FB95F4062B6E0E05B /* NSDate+sqlRepresentation.m in Sources */,
+				5173003894594A05B1AE67C9 /* NSDecimalNumber+isPresented.m in Sources */,
+				AB5B55B4FA394042811C3837 /* NSDecimalNumber+sqlRepresentation.m in Sources */,
+				02364318BF4E4522864962DC /* NSMutableDictionary+valueToArray.m in Sources */,
+				DF30952C3CAC4A7DB44E6ABB /* NSNumber+isPresented.m in Sources */,
+				92694AF8CBA246F18E24814E /* NSNumber+sqlRepresentation.m in Sources */,
+				56D2399D9D794FED9BF8D6EA /* NSSet+toSql.m in Sources */,
+				FE0F00B3ED994E7A9956B539 /* NSString+isPresented.m in Sources */,
+				77D57730B6C34213A7889A31 /* NSString+lowercaseFirst.m in Sources */,
+				5F946C4698B1492E8947ABDE /* NSString+quotedString.m in Sources */,
+				89A6152581A34EABB898707B /* NSString+sqlRepresentation.m in Sources */,
+				45525912AC23484E90945673 /* NSString+stringWithEscapedQuote.m in Sources */,
+				D798B1A5366942D1B26C02DD /* NSString+uppercaseFirst.m in Sources */,
+				D376359D7A1941E8B806DAE1 /* sqlite3_unicode.c in Sources */,
+				12A26B7EA7FE486BA3AD9A68 /* PodsDummy_Pods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C31BD0FC6614A598039D8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD0C88CEE9845E88941C9B8 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259850EB18B24F228ED7DC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EA473B2CD1CA4ADFB1375F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		F88645ED1D974199B2240D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD0C88CEE9845E88941C9B8 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A56DD856EC84490B25AB2A8 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA473B2CD1CA4ADFB1375F47 /* Release */,
+				259850EB18B24F228ED7DC17 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4B449A86814A099301AE9F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C31BD0FC6614A598039D8D7 /* Release */,
+				F88645ED1D974199B2240D8B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22B551018F34363865E6565 /* Project object */;
+}
